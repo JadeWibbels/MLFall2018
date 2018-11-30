@@ -15,6 +15,7 @@ https://arxiv.org/abs/1810.00001
 3) Iterate on feature engineering:
 
 Good resource for feature engineering ideas: https://machinelearningmastery.com/an-introduction-to-feature-selection/
+https://towardsdatascience.com/why-how-and-when-to-apply-feature-selection-e9c69adfabf2
 
 - Brainstorming or Testing features
 - Deciding what features to create
