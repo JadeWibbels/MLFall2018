@@ -13,16 +13,15 @@ https://arxiv.org/abs/1810.00001
 1) Start AWS Server for processing, import data
 2) Use a naive Neural Network to achieve baseline
 3) Iterate on feature engineering:
--Process of feature engineering is:
 
-a. Brainstorming or Testing features
-b. Deciding what features to create
-c. Creating features
-d. Checking how the features work with your model
-e. Improving your features if needed
-f. Go back to brainstorming/creating more features until the work is done.
+Good resource for feature engineering ideas: https://machinelearningmastery.com/an-introduction-to-feature-selection/
 
-Question: Do we need to normalize any features?
+- Brainstorming or Testing features
+- Deciding what features to create
+- Creating features
+- Checking how the features work with your model
+- Improving your features if needed
+- Go back to brainstorming/creating more features until the work is done.
 
 Featuring Engineering implamented:
 - OneHot passband values 
