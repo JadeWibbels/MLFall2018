@@ -27,6 +27,7 @@ https://towardsdatascience.com/why-how-and-when-to-apply-feature-selection-e9c69
 Featuring Engineering implamented:
 - OneHot passband values 
 - check baseline with and without distmod (Alex similarirty check)
+- Test for feature significance f-test, mutual info, extra tree, variance threshold
 
 4) Iterate on Neural Network hyper parameters
 - (initial) 
