@@ -50,7 +50,7 @@ def multi_weighted_logloss(y_ohe, y_p):
 
 
 ''' adapted from public kernel in starter kit
-https://www.kaggle.com/michaelapers/the-plasticc-astronomy-starter-kit
+https://www.kaggle.com/meaninglesslives/simple-neural-net-for-time-series-classification
 '''
 K.clear_session()
 def create_model(dropout_rate=0.25,activation='relu'):
