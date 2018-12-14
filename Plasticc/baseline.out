@@ -1,0 +1,1084 @@
+nohup: ignoring input
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/ec2-user/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1123: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+7848
+   index  object_id         mjd   ...    distmod  mwebv  target
+0      0        615  59750.4229   ...        NaN  0.017      92
+1      1        615  59750.4306   ...        NaN  0.017      92
+2      2        615  59750.4383   ...        NaN  0.017      92
+3      3        615  59750.4450   ...        NaN  0.017      92
+4      4        615  59752.4070   ...        NaN  0.017      92
+
+[5 rows x 18 columns]
+mwebv            float64
+hostgal_specz    float64
+index              int64
+object_id          int64
+target             int64
+flux_err         float64
+ra               float64
+gal_b            float64
+decl             float64
+ddf                int64
+dtype: object
+Unique classes:  [6, 15, 16, 42, 52, 53, 62, 64, 65, 67, 88, 90, 92, 95]
+[[-1.73204959e+00 -7.96664603e-01 -1.38658332e+00 ... -5.28847765e-01
+  -1.62270016e-12 -3.41473462e-01]
+ [-1.73204715e+00 -7.96664603e-01 -1.38655842e+00 ... -5.28847765e-01
+  -1.62270016e-12 -3.41473462e-01]
+ [-1.73204472e+00 -7.96664603e-01 -1.38653352e+00 ... -5.28847765e-01
+  -1.62270016e-12 -3.41473462e-01]
+ ...
+ [ 1.73204472e+00  2.27439630e+00  1.26703675e+00 ... -5.28847765e-01
+  -1.62270016e-12  2.23464002e-01]
+ [ 1.73204715e+00  2.27439630e+00  1.31546195e+00 ... -5.28847765e-01
+  -1.62270016e-12  2.23464002e-01]
+ [ 1.73204959e+00  2.27439630e+00  1.32205817e+00 ... -5.28847765e-01
+  -1.62270016e-12  2.23464002e-01]]
+3036
+   index  object_id         mjd  ...    hostgal_photoz_err  distmod  mwebv
+0      0         13  59798.3205  ...                0.0542  41.1123  0.019
+1      1         13  59798.3281  ...                0.0542  41.1123  0.019
+2      2         13  59798.3357  ...                0.0542  41.1123  0.019
+3      3         13  59798.3466  ...                0.0542  41.1123  0.019
+4      4         13  59798.3576  ...                0.0542  41.1123  0.019
+
+[5 rows x 17 columns]
+Entity: Plasticc_Test
+  Variables:
+    index (dtype: index)
+    object_id (dtype: numeric)
+    mjd (dtype: numeric_time_index)
+    passband (dtype: numeric)
+    flux (dtype: numeric)
+    flux_err (dtype: numeric)
+    detected (dtype: numeric)
+    ra (dtype: numeric)
+    decl (dtype: numeric)
+    gal_l (dtype: numeric)
+    gal_b (dtype: numeric)
+    ddf (dtype: numeric)
+    hostgal_specz (dtype: numeric)
+    hostgal_photoz (dtype: numeric)
+    hostgal_photoz_err (dtype: numeric)
+    distmod (dtype: numeric)
+    mwebv (dtype: numeric)
+  Shape:
+    (Rows: 1000000, Columns: 17)
+Epoch 00000: val_loss improved from inf to 1.40743, saving model to ./keras.model
+Epoch 00001: val_loss improved from 1.40743 to 1.36303, saving model to ./keras.model
+Epoch 00002: val_loss improved from 1.36303 to 1.34124, saving model to ./keras.model
+Epoch 00003: val_loss improved from 1.34124 to 1.31846, saving model to ./keras.model
+Epoch 00004: val_loss improved from 1.31846 to 1.30344, saving model to ./keras.model
+Epoch 00005: val_loss improved from 1.30344 to 1.29689, saving model to ./keras.model
+Epoch 00006: val_loss improved from 1.29689 to 1.27415, saving model to ./keras.model
+Epoch 00007: val_loss improved from 1.27415 to 1.25938, saving model to ./keras.model
+Epoch 00008: val_loss improved from 1.25938 to 1.24503, saving model to ./keras.model
+Epoch 00009: val_loss improved from 1.24503 to 1.24181, saving model to ./keras.model
+Epoch 00010: val_loss improved from 1.24181 to 1.22530, saving model to ./keras.model
+Epoch 00011: val_loss improved from 1.22530 to 1.22384, saving model to ./keras.model
+Epoch 00012: val_loss improved from 1.22384 to 1.21388, saving model to ./keras.model
+Epoch 00013: val_loss improved from 1.21388 to 1.20995, saving model to ./keras.model
+Epoch 00014: val_loss improved from 1.20995 to 1.20258, saving model to ./keras.model
+Epoch 00015: val_loss improved from 1.20258 to 1.19164, saving model to ./keras.model
+Epoch 00016: val_loss improved from 1.19164 to 1.18422, saving model to ./keras.model
+Epoch 00017: val_loss improved from 1.18422 to 1.18256, saving model to ./keras.model
+Epoch 00018: val_loss improved from 1.18256 to 1.17367, saving model to ./keras.model
+Epoch 00019: val_loss improved from 1.17367 to 1.17199, saving model to ./keras.model
+Epoch 00020: val_loss improved from 1.17199 to 1.16006, saving model to ./keras.model
+Epoch 00021: val_loss improved from 1.16006 to 1.15761, saving model to ./keras.model
+Epoch 00022: val_loss improved from 1.15761 to 1.15283, saving model to ./keras.model
+Epoch 00023: val_loss improved from 1.15283 to 1.14368, saving model to ./keras.model
+Epoch 00024: val_loss improved from 1.14368 to 1.13927, saving model to ./keras.model
+Epoch 00025: val_loss improved from 1.13927 to 1.13492, saving model to ./keras.model
+Epoch 00026: val_loss improved from 1.13492 to 1.13273, saving model to ./keras.model
+Epoch 00027: val_loss did not improve
+Epoch 00028: val_loss improved from 1.13273 to 1.12174, saving model to ./keras.model
+Epoch 00029: val_loss did not improve
+Epoch 00030: val_loss improved from 1.12174 to 1.11681, saving model to ./keras.model
+Epoch 00031: val_loss improved from 1.11681 to 1.11350, saving model to ./keras.model
+Epoch 00032: val_loss improved from 1.11350 to 1.10878, saving model to ./keras.model
+Epoch 00033: val_loss improved from 1.10878 to 1.10606, saving model to ./keras.model
+Epoch 00034: val_loss improved from 1.10606 to 1.09940, saving model to ./keras.model
+Epoch 00035: val_loss improved from 1.09940 to 1.09397, saving model to ./keras.model
+Epoch 00036: val_loss did not improve
+Epoch 00037: val_loss improved from 1.09397 to 1.08896, saving model to ./keras.model
+Epoch 00038: val_loss did not improve
+Epoch 00039: val_loss improved from 1.08896 to 1.08039, saving model to ./keras.model
+Epoch 00040: val_loss did not improve
+Epoch 00041: val_loss improved from 1.08039 to 1.07833, saving model to ./keras.model
+Epoch 00042: val_loss improved from 1.07833 to 1.07655, saving model to ./keras.model
+Epoch 00043: val_loss improved from 1.07655 to 1.07555, saving model to ./keras.model
+Epoch 00044: val_loss improved from 1.07555 to 1.06616, saving model to ./keras.model
+Epoch 00045: val_loss improved from 1.06616 to 1.06414, saving model to ./keras.model
+Epoch 00046: val_loss improved from 1.06414 to 1.06376, saving model to ./keras.model
+Epoch 00047: val_loss improved from 1.06376 to 1.05849, saving model to ./keras.model
+Epoch 00048: val_loss improved from 1.05849 to 1.05779, saving model to ./keras.model
+Epoch 00049: val_loss improved from 1.05779 to 1.05627, saving model to ./keras.model
+Epoch 00050: val_loss improved from 1.05627 to 1.05506, saving model to ./keras.model
+Epoch 00051: val_loss improved from 1.05506 to 1.04924, saving model to ./keras.model
+Epoch 00052: val_loss did not improve
+Epoch 00053: val_loss improved from 1.04924 to 1.04754, saving model to ./keras.model
+Epoch 00054: val_loss improved from 1.04754 to 1.04168, saving model to ./keras.model
+Epoch 00055: val_loss improved from 1.04168 to 1.03872, saving model to ./keras.model
+Epoch 00056: val_loss improved from 1.03872 to 1.03848, saving model to ./keras.model
+Epoch 00057: val_loss improved from 1.03848 to 1.03644, saving model to ./keras.model
+Epoch 00058: val_loss improved from 1.03644 to 1.02986, saving model to ./keras.model
+Epoch 00059: val_loss did not improve
+Epoch 00060: val_loss improved from 1.02986 to 1.02968, saving model to ./keras.model
+Epoch 00061: val_loss improved from 1.02968 to 1.02444, saving model to ./keras.model
+Epoch 00062: val_loss improved from 1.02444 to 1.02314, saving model to ./keras.model
+Epoch 00063: val_loss improved from 1.02314 to 1.02144, saving model to ./keras.model
+Epoch 00064: val_loss improved from 1.02144 to 1.01964, saving model to ./keras.model
+Epoch 00065: val_loss improved from 1.01964 to 1.01542, saving model to ./keras.model
+Epoch 00066: val_loss improved from 1.01542 to 1.01305, saving model to ./keras.model
+Epoch 00067: val_loss improved from 1.01305 to 1.01147, saving model to ./keras.model
+Epoch 00068: val_loss improved from 1.01147 to 1.00531, saving model to ./keras.model
+Epoch 00069: val_loss improved from 1.00531 to 1.00079, saving model to ./keras.model
+Epoch 00070: val_loss did not improve
+Epoch 00071: val_loss improved from 1.00079 to 1.00076, saving model to ./keras.model
+Epoch 00072: val_loss did not improve
+Epoch 00073: val_loss improved from 1.00076 to 0.99787, saving model to ./keras.model
+Epoch 00074: val_loss improved from 0.99787 to 0.99348, saving model to ./keras.model
+Epoch 00075: val_loss did not improve
+Epoch 00076: val_loss improved from 0.99348 to 0.99128, saving model to ./keras.model
+Epoch 00077: val_loss improved from 0.99128 to 0.99119, saving model to ./keras.model
+Epoch 00078: val_loss improved from 0.99119 to 0.98430, saving model to ./keras.model
+Epoch 00079: val_loss did not improve
+Epoch 00080: val_loss did not improve
+Epoch 00081: val_loss improved from 0.98430 to 0.97794, saving model to ./keras.model
+Epoch 00082: val_loss did not improve
+Epoch 00083: val_loss improved from 0.97794 to 0.97562, saving model to ./keras.model
+Epoch 00084: val_loss improved from 0.97562 to 0.97484, saving model to ./keras.model
+Epoch 00085: val_loss improved from 0.97484 to 0.97047, saving model to ./keras.model
+Epoch 00086: val_loss did not improve
+Epoch 00087: val_loss improved from 0.97047 to 0.96922, saving model to ./keras.model
+Epoch 00088: val_loss did not improve
+Epoch 00089: val_loss improved from 0.96922 to 0.96540, saving model to ./keras.model
+Epoch 00090: val_loss improved from 0.96540 to 0.96469, saving model to ./keras.model
+Epoch 00091: val_loss improved from 0.96469 to 0.96003, saving model to ./keras.model
+Epoch 00092: val_loss improved from 0.96003 to 0.95936, saving model to ./keras.model
+Epoch 00093: val_loss improved from 0.95936 to 0.95933, saving model to ./keras.model
+Epoch 00094: val_loss improved from 0.95933 to 0.95766, saving model to ./keras.model
+Epoch 00095: val_loss improved from 0.95766 to 0.95362, saving model to ./keras.model
+Epoch 00096: val_loss improved from 0.95362 to 0.95227, saving model to ./keras.model
+Epoch 00097: val_loss improved from 0.95227 to 0.95201, saving model to ./keras.model
+Epoch 00098: val_loss did not improve
+Epoch 00099: val_loss did not improve
+Epoch 00100: val_loss improved from 0.95201 to 0.94888, saving model to ./keras.model
+Epoch 00101: val_loss improved from 0.94888 to 0.94508, saving model to ./keras.model
+Epoch 00102: val_loss did not improve
+Epoch 00103: val_loss did not improve
+Epoch 00104: val_loss did not improve
+Epoch 00105: val_loss improved from 0.94508 to 0.94230, saving model to ./keras.model
+Epoch 00106: val_loss improved from 0.94230 to 0.94217, saving model to ./keras.model
+Epoch 00107: val_loss improved from 0.94217 to 0.93988, saving model to ./keras.model
+Epoch 00108: val_loss improved from 0.93988 to 0.93792, saving model to ./keras.model
+Epoch 00109: val_loss improved from 0.93792 to 0.93580, saving model to ./keras.model
+Epoch 00110: val_loss improved from 0.93580 to 0.93130, saving model to ./keras.model
+Epoch 00111: val_loss did not improve
+Epoch 00112: val_loss improved from 0.93130 to 0.92916, saving model to ./keras.model
+Epoch 00113: val_loss did not improve
+Epoch 00114: val_loss improved from 0.92916 to 0.92838, saving model to ./keras.model
+Epoch 00115: val_loss improved from 0.92838 to 0.92638, saving model to ./keras.model
+Epoch 00116: val_loss improved from 0.92638 to 0.92436, saving model to ./keras.model
+Epoch 00117: val_loss did not improve
+Epoch 00118: val_loss improved from 0.92436 to 0.92383, saving model to ./keras.model
+Epoch 00119: val_loss improved from 0.92383 to 0.91780, saving model to ./keras.model
+Epoch 00120: val_loss did not improve
+Epoch 00121: val_loss did not improve
+Epoch 00122: val_loss improved from 0.91780 to 0.91421, saving model to ./keras.model
+Epoch 00123: val_loss did not improve
+Epoch 00124: val_loss did not improve
+Epoch 00125: val_loss did not improve
+Epoch 00126: val_loss improved from 0.91421 to 0.91160, saving model to ./keras.model
+Epoch 00127: val_loss did not improve
+Epoch 00128: val_loss did not improve
+Epoch 00129: val_loss did not improve
+Epoch 00130: val_loss improved from 0.91160 to 0.90955, saving model to ./keras.model
+Epoch 00131: val_loss improved from 0.90955 to 0.90222, saving model to ./keras.model
+Epoch 00132: val_loss did not improve
+Epoch 00133: val_loss improved from 0.90222 to 0.90125, saving model to ./keras.model
+Epoch 00134: val_loss did not improve
+Epoch 00135: val_loss did not improve
+Epoch 00136: val_loss did not improve
+Epoch 00137: val_loss did not improve
+Epoch 00138: val_loss improved from 0.90125 to 0.89838, saving model to ./keras.model
+Epoch 00139: val_loss improved from 0.89838 to 0.89728, saving model to ./keras.model
+Epoch 00140: val_loss did not improve
+Epoch 00141: val_loss improved from 0.89728 to 0.89110, saving model to ./keras.model
+Epoch 00142: val_loss improved from 0.89110 to 0.88721, saving model to ./keras.model
+Epoch 00143: val_loss did not improve
+Epoch 00144: val_loss improved from 0.88721 to 0.88420, saving model to ./keras.model
+Epoch 00145: val_loss did not improve
+Epoch 00146: val_loss did not improve
+Epoch 00147: val_loss did not improve
+Epoch 00148: val_loss did not improve
+Epoch 00149: val_loss improved from 0.88420 to 0.88314, saving model to ./keras.model
+Epoch 00150: val_loss did not improve
+Epoch 00151: val_loss improved from 0.88314 to 0.88187, saving model to ./keras.model
+Epoch 00152: val_loss improved from 0.88187 to 0.87687, saving model to ./keras.model
+Epoch 00153: val_loss did not improve
+Epoch 00154: val_loss improved from 0.87687 to 0.87605, saving model to ./keras.model
+Epoch 00155: val_loss did not improve
+Epoch 00156: val_loss did not improve
+Epoch 00157: val_loss did not improve
+Epoch 00158: val_loss improved from 0.87605 to 0.86993, saving model to ./keras.model
+Epoch 00159: val_loss did not improve
+Epoch 00160: val_loss did not improve
+Epoch 00161: val_loss improved from 0.86993 to 0.86810, saving model to ./keras.model
+Epoch 00162: val_loss did not improve
+Epoch 00163: val_loss did not improve
+Epoch 00164: val_loss improved from 0.86810 to 0.86769, saving model to ./keras.model
+Epoch 00165: val_loss improved from 0.86769 to 0.86599, saving model to ./keras.model
+Epoch 00166: val_loss improved from 0.86599 to 0.86098, saving model to ./keras.model
+Epoch 00167: val_loss did not improve
+Epoch 00168: val_loss did not improve
+Epoch 00169: val_loss did not improve
+Epoch 00170: val_loss did not improve
+Epoch 00171: val_loss improved from 0.86098 to 0.85996, saving model to ./keras.model
+Epoch 00172: val_loss did not improve
+Epoch 00173: val_loss improved from 0.85996 to 0.85786, saving model to ./keras.model
+Epoch 00174: val_loss improved from 0.85786 to 0.85428, saving model to ./keras.model
+Epoch 00175: val_loss did not improve
+Epoch 00176: val_loss did not improve
+Epoch 00177: val_loss improved from 0.85428 to 0.85282, saving model to ./keras.model
+Epoch 00178: val_loss did not improve
+Epoch 00179: val_loss did not improve
+Epoch 00180: val_loss improved from 0.85282 to 0.85121, saving model to ./keras.model
+Epoch 00181: val_loss improved from 0.85121 to 0.85031, saving model to ./keras.model
+Epoch 00182: val_loss did not improve
+Epoch 00183: val_loss did not improve
+Epoch 00184: val_loss improved from 0.85031 to 0.84425, saving model to ./keras.model
+Epoch 00185: val_loss did not improve
+Epoch 00186: val_loss did not improve
+Epoch 00187: val_loss did not improve
+Epoch 00188: val_loss improved from 0.84425 to 0.84077, saving model to ./keras.model
+Epoch 00189: val_loss did not improve
+Epoch 00190: val_loss did not improve
+Epoch 00191: val_loss did not improve
+Epoch 00192: val_loss improved from 0.84077 to 0.84021, saving model to ./keras.model
+Epoch 00193: val_loss improved from 0.84021 to 0.83874, saving model to ./keras.model
+Epoch 00194: val_loss did not improve
+Epoch 00195: val_loss did not improve
+Epoch 00196: val_loss did not improve
+Epoch 00197: val_loss improved from 0.83874 to 0.83459, saving model to ./keras.model
+Epoch 00198: val_loss did not improve
+Epoch 00199: val_loss improved from 0.83459 to 0.83419, saving model to ./keras.model
+Loading Best Model:
+  1000/284346 [..............................] - ETA: 41s  5000/284346 [..............................] - ETA: 10s 10000/284346 [>.............................] - ETA: 6s  15000/284346 [>.............................] - ETA: 5s 20000/284346 [=>............................] - ETA: 4s 25000/284346 [=>............................] - ETA: 4s 30000/284346 [==>...........................] - ETA: 4s 35000/284346 [==>...........................] - ETA: 3s 40000/284346 [===>..........................] - ETA: 3s 45000/284346 [===>..........................] - ETA: 3s 50000/284346 [====>.........................] - ETA: 3s 55000/284346 [====>.........................] - ETA: 3s 60000/284346 [=====>........................] - ETA: 3s 65000/284346 [=====>........................] - ETA: 2s 70000/284346 [======>.......................] - ETA: 2s 75000/284346 [======>.......................] - ETA: 2s 80000/284346 [=======>......................] - ETA: 2s 85000/284346 [=======>......................] - ETA: 2s 90000/284346 [========>.....................] - ETA: 2s 95000/284346 [=========>....................] - ETA: 2s100000/284346 [=========>....................] - ETA: 2s105000/284346 [==========>...................] - ETA: 2s110000/284346 [==========>...................] - ETA: 2s115000/284346 [===========>..................] - ETA: 2s120000/284346 [===========>..................] - ETA: 2s125000/284346 [============>.................] - ETA: 1s130000/284346 [============>.................] - ETA: 1s135000/284346 [=============>................] - ETA: 1s140000/284346 [=============>................] - ETA: 1s145000/284346 [==============>...............] - ETA: 1s150000/284346 [==============>...............] - ETA: 1s155000/284346 [===============>..............] - ETA: 1s160000/284346 [===============>..............] - ETA: 1s165000/284346 [================>.............] - ETA: 1s170000/284346 [================>.............] - ETA: 1s175000/284346 [=================>............] - ETA: 1s180000/284346 [=================>............] - ETA: 1s185000/284346 [==================>...........] - ETA: 1s190000/284346 [===================>..........] - ETA: 1s195000/284346 [===================>..........] - ETA: 1s200000/284346 [====================>.........] - ETA: 1s205000/284346 [====================>.........] - ETA: 0s210000/284346 [=====================>........] - ETA: 0s215000/284346 [=====================>........] - ETA: 0s220000/284346 [======================>.......] - ETA: 0s225000/284346 [======================>.......] - ETA: 0s230000/284346 [=======================>......] - ETA: 0s235000/284346 [=======================>......] - ETA: 0s240000/284346 [========================>.....] - ETA: 0s245000/284346 [========================>.....] - ETA: 0s250000/284346 [=========================>....] - ETA: 0s255000/284346 [=========================>....] - ETA: 0s260000/284346 [==========================>...] - ETA: 0s265000/284346 [==========================>...] - ETA: 0s270000/284346 [===========================>..] - ETA: 0s275000/284346 [============================>.] - ETA: 0s280000/284346 [============================>.] - ETA: 0s284346/284346 [==============================] - 3s     
+  1000/284346 [..............................] - ETA: 4s  6000/284346 [..............................] - ETA: 3s 11000/284346 [>.............................] - ETA: 3s 16000/284346 [>.............................] - ETA: 3s 21000/284346 [=>............................] - ETA: 3s 26000/284346 [=>............................] - ETA: 3s 31000/284346 [==>...........................] - ETA: 2s 36000/284346 [==>...........................] - ETA: 2s 41000/284346 [===>..........................] - ETA: 2s 46000/284346 [===>..........................] - ETA: 2s 51000/284346 [====>.........................] - ETA: 2s 56000/284346 [====>.........................] - ETA: 2s 61000/284346 [=====>........................] - ETA: 2s 66000/284346 [=====>........................] - ETA: 2s 71000/284346 [======>.......................] - ETA: 2s 76000/284346 [=======>......................] - ETA: 2s 81000/284346 [=======>......................] - ETA: 2s 86000/284346 [========>.....................] - ETA: 2s 91000/284346 [========>.....................] - ETA: 2s 96000/284346 [=========>....................] - ETA: 2s101000/284346 [=========>....................] - ETA: 2s106000/284346 [==========>...................] - ETA: 2s111000/284346 [==========>...................] - ETA: 1s116000/284346 [===========>..................] - ETA: 1s121000/284346 [===========>..................] - ETA: 1s126000/284346 [============>.................] - ETA: 1s131000/284346 [============>.................] - ETA: 1s136000/284346 [=============>................] - ETA: 1s141000/284346 [=============>................] - ETA: 1s146000/284346 [==============>...............] - ETA: 1s151000/284346 [==============>...............] - ETA: 1s156000/284346 [===============>..............] - ETA: 1s161000/284346 [===============>..............] - ETA: 1s166000/284346 [================>.............] - ETA: 1s171000/284346 [=================>............] - ETA: 1s176000/284346 [=================>............] - ETA: 1s181000/284346 [==================>...........] - ETA: 1s186000/284346 [==================>...........] - ETA: 1s191000/284346 [===================>..........] - ETA: 1s196000/284346 [===================>..........] - ETA: 1s201000/284346 [====================>.........] - ETA: 0s206000/284346 [====================>.........] - ETA: 0s211000/284346 [=====================>........] - ETA: 0s216000/284346 [=====================>........] - ETA: 0s221000/284346 [======================>.......] - ETA: 0s226000/284346 [======================>.......] - ETA: 0s231000/284346 [=======================>......] - ETA: 0s236000/284346 [=======================>......] - ETA: 0s241000/284346 [========================>.....] - ETA: 0s246000/284346 [========================>.....] - ETA: 0s251000/284346 [=========================>....] - ETA: 0s256000/284346 [==========================>...] - ETA: 0s261000/284346 [==========================>...] - ETA: 0s266000/284346 [===========================>..] - ETA: 0s271000/284346 [===========================>..] - ETA: 0s276000/284346 [============================>.] - ETA: 0s281000/284346 [============================>.] - ETA: 0s0.7988500649345885
+Epoch 00000: val_loss improved from inf to 1.40336, saving model to ./keras.model
+Epoch 00001: val_loss improved from 1.40336 to 1.36871, saving model to ./keras.model
+Epoch 00002: val_loss improved from 1.36871 to 1.33740, saving model to ./keras.model
+Epoch 00003: val_loss improved from 1.33740 to 1.31732, saving model to ./keras.model
+Epoch 00004: val_loss improved from 1.31732 to 1.30054, saving model to ./keras.model
+Epoch 00005: val_loss improved from 1.30054 to 1.28142, saving model to ./keras.model
+Epoch 00006: val_loss improved from 1.28142 to 1.26967, saving model to ./keras.model
+Epoch 00007: val_loss improved from 1.26967 to 1.25965, saving model to ./keras.model
+Epoch 00008: val_loss improved from 1.25965 to 1.24506, saving model to ./keras.model
+Epoch 00009: val_loss improved from 1.24506 to 1.23599, saving model to ./keras.model
+Epoch 00010: val_loss improved from 1.23599 to 1.23169, saving model to ./keras.model
+Epoch 00011: val_loss improved from 1.23169 to 1.21641, saving model to ./keras.model
+Epoch 00012: val_loss improved from 1.21641 to 1.20715, saving model to ./keras.model
+Epoch 00013: val_loss improved from 1.20715 to 1.20092, saving model to ./keras.model
+Epoch 00014: val_loss improved from 1.20092 to 1.18893, saving model to ./keras.model
+Epoch 00015: val_loss improved from 1.18893 to 1.18769, saving model to ./keras.model
+Epoch 00016: val_loss improved from 1.18769 to 1.18350, saving model to ./keras.model
+Epoch 00017: val_loss improved from 1.18350 to 1.17585, saving model to ./keras.model
+Epoch 00018: val_loss improved from 1.17585 to 1.17019, saving model to ./keras.model
+Epoch 00019: val_loss improved from 1.17019 to 1.16821, saving model to ./keras.model
+Epoch 00020: val_loss improved from 1.16821 to 1.15801, saving model to ./keras.model
+Epoch 00021: val_loss improved from 1.15801 to 1.14923, saving model to ./keras.model
+Epoch 00022: val_loss did not improve
+Epoch 00023: val_loss improved from 1.14923 to 1.14607, saving model to ./keras.model
+Epoch 00024: val_loss improved from 1.14607 to 1.14302, saving model to ./keras.model
+Epoch 00025: val_loss improved from 1.14302 to 1.13448, saving model to ./keras.model
+Epoch 00026: val_loss improved from 1.13448 to 1.12921, saving model to ./keras.model
+Epoch 00027: val_loss did not improve
+Epoch 00028: val_loss improved from 1.12921 to 1.11823, saving model to ./keras.model
+Epoch 00029: val_loss did not improve
+Epoch 00030: val_loss improved from 1.11823 to 1.11467, saving model to ./keras.model
+Epoch 00031: val_loss improved from 1.11467 to 1.11076, saving model to ./keras.model
+Epoch 00032: val_loss improved from 1.11076 to 1.10203, saving model to ./keras.model
+Epoch 00033: val_loss improved from 1.10203 to 1.10087, saving model to ./keras.model
+Epoch 00034: val_loss improved from 1.10087 to 1.10083, saving model to ./keras.model
+Epoch 00035: val_loss improved from 1.10083 to 1.10021, saving model to ./keras.model
+Epoch 00036: val_loss improved from 1.10021 to 1.09739, saving model to ./keras.model
+Epoch 00037: val_loss improved from 1.09739 to 1.09509, saving model to ./keras.model
+Epoch 00038: val_loss improved from 1.09509 to 1.08617, saving model to ./keras.model
+Epoch 00039: val_loss improved from 1.08617 to 1.08446, saving model to ./keras.model
+Epoch 00040: val_loss did not improve
+Epoch 00041: val_loss did not improve
+Epoch 00042: val_loss improved from 1.08446 to 1.07800, saving model to ./keras.model
+Epoch 00043: val_loss improved from 1.07800 to 1.07376, saving model to ./keras.model
+Epoch 00044: val_loss improved from 1.07376 to 1.07342, saving model to ./keras.model
+Epoch 00045: val_loss improved from 1.07342 to 1.07306, saving model to ./keras.model
+Epoch 00046: val_loss improved from 1.07306 to 1.06749, saving model to ./keras.model
+Epoch 00047: val_loss improved from 1.06749 to 1.06508, saving model to ./keras.model
+Epoch 00048: val_loss improved from 1.06508 to 1.06070, saving model to ./keras.model
+Epoch 00049: val_loss improved from 1.06070 to 1.05298, saving model to ./keras.model
+Epoch 00050: val_loss did not improve
+Epoch 00051: val_loss did not improve
+Epoch 00052: val_loss did not improve
+Epoch 00053: val_loss improved from 1.05298 to 1.05040, saving model to ./keras.model
+Epoch 00054: val_loss improved from 1.05040 to 1.04457, saving model to ./keras.model
+Epoch 00055: val_loss improved from 1.04457 to 1.04214, saving model to ./keras.model
+Epoch 00056: val_loss improved from 1.04214 to 1.04210, saving model to ./keras.model
+Epoch 00057: val_loss improved from 1.04210 to 1.03810, saving model to ./keras.model
+Epoch 00058: val_loss improved from 1.03810 to 1.03448, saving model to ./keras.model
+Epoch 00059: val_loss did not improve
+Epoch 00060: val_loss improved from 1.03448 to 1.03150, saving model to ./keras.model
+Epoch 00061: val_loss did not improve
+Epoch 00062: val_loss improved from 1.03150 to 1.02609, saving model to ./keras.model
+Epoch 00063: val_loss improved from 1.02609 to 1.02583, saving model to ./keras.model
+Epoch 00064: val_loss improved from 1.02583 to 1.02160, saving model to ./keras.model
+Epoch 00065: val_loss did not improve
+Epoch 00066: val_loss improved from 1.02160 to 1.01834, saving model to ./keras.model
+Epoch 00067: val_loss improved from 1.01834 to 1.01731, saving model to ./keras.model
+Epoch 00068: val_loss improved from 1.01731 to 1.01485, saving model to ./keras.model
+Epoch 00069: val_loss improved from 1.01485 to 1.01414, saving model to ./keras.model
+Epoch 00070: val_loss improved from 1.01414 to 1.01178, saving model to ./keras.model
+Epoch 00071: val_loss did not improve
+Epoch 00072: val_loss improved from 1.01178 to 1.01053, saving model to ./keras.model
+Epoch 00073: val_loss improved from 1.01053 to 1.00589, saving model to ./keras.model
+Epoch 00074: val_loss did not improve
+Epoch 00075: val_loss improved from 1.00589 to 1.00213, saving model to ./keras.model
+Epoch 00076: val_loss did not improve
+Epoch 00077: val_loss improved from 1.00213 to 0.99634, saving model to ./keras.model
+Epoch 00078: val_loss did not improve
+Epoch 00079: val_loss did not improve
+Epoch 00080: val_loss improved from 0.99634 to 0.99214, saving model to ./keras.model
+Epoch 00081: val_loss improved from 0.99214 to 0.98873, saving model to ./keras.model
+Epoch 00082: val_loss did not improve
+Epoch 00083: val_loss improved from 0.98873 to 0.98813, saving model to ./keras.model
+Epoch 00084: val_loss did not improve
+Epoch 00085: val_loss improved from 0.98813 to 0.98172, saving model to ./keras.model
+Epoch 00086: val_loss improved from 0.98172 to 0.97884, saving model to ./keras.model
+Epoch 00087: val_loss did not improve
+Epoch 00088: val_loss did not improve
+Epoch 00089: val_loss improved from 0.97884 to 0.97819, saving model to ./keras.model
+Epoch 00090: val_loss improved from 0.97819 to 0.97716, saving model to ./keras.model
+Epoch 00091: val_loss improved from 0.97716 to 0.97098, saving model to ./keras.model
+Epoch 00092: val_loss did not improve
+Epoch 00093: val_loss did not improve
+Epoch 00094: val_loss improved from 0.97098 to 0.96590, saving model to ./keras.model
+Epoch 00095: val_loss improved from 0.96590 to 0.96587, saving model to ./keras.model
+Epoch 00096: val_loss improved from 0.96587 to 0.96105, saving model to ./keras.model
+Epoch 00097: val_loss did not improve
+Epoch 00098: val_loss did not improve
+Epoch 00099: val_loss did not improve
+Epoch 00100: val_loss improved from 0.96105 to 0.95736, saving model to ./keras.model
+Epoch 00101: val_loss did not improve
+Epoch 00102: val_loss improved from 0.95736 to 0.95407, saving model to ./keras.model
+Epoch 00103: val_loss did not improve
+Epoch 00104: val_loss improved from 0.95407 to 0.95093, saving model to ./keras.model
+Epoch 00105: val_loss improved from 0.95093 to 0.94911, saving model to ./keras.model
+Epoch 00106: val_loss improved from 0.94911 to 0.94546, saving model to ./keras.model
+Epoch 00107: val_loss did not improve
+Epoch 00108: val_loss improved from 0.94546 to 0.94437, saving model to ./keras.model
+Epoch 00109: val_loss did not improve
+Epoch 00110: val_loss did not improve
+Epoch 00111: val_loss improved from 0.94437 to 0.94184, saving model to ./keras.model
+Epoch 00112: val_loss did not improve
+Epoch 00113: val_loss did not improve
+Epoch 00114: val_loss did not improve
+Epoch 00115: val_loss improved from 0.94184 to 0.93795, saving model to ./keras.model
+Epoch 00116: val_loss did not improve
+Epoch 00117: val_loss improved from 0.93795 to 0.93122, saving model to ./keras.model
+Epoch 00118: val_loss did not improve
+Epoch 00119: val_loss improved from 0.93122 to 0.92986, saving model to ./keras.model
+Epoch 00120: val_loss improved from 0.92986 to 0.92961, saving model to ./keras.model
+Epoch 00121: val_loss improved from 0.92961 to 0.92705, saving model to ./keras.model
+Epoch 00122: val_loss did not improve
+Epoch 00123: val_loss did not improve
+Epoch 00124: val_loss improved from 0.92705 to 0.92191, saving model to ./keras.model
+Epoch 00125: val_loss improved from 0.92191 to 0.92158, saving model to ./keras.model
+Epoch 00126: val_loss improved from 0.92158 to 0.92134, saving model to ./keras.model
+Epoch 00127: val_loss improved from 0.92134 to 0.92099, saving model to ./keras.model
+Epoch 00128: val_loss improved from 0.92099 to 0.92009, saving model to ./keras.model
+Epoch 00129: val_loss improved from 0.92009 to 0.91974, saving model to ./keras.model
+Epoch 00130: val_loss improved from 0.91974 to 0.91683, saving model to ./keras.model
+Epoch 00131: val_loss improved from 0.91683 to 0.91295, saving model to ./keras.model
+Epoch 00132: val_loss did not improve
+Epoch 00133: val_loss did not improve
+Epoch 00134: val_loss did not improve
+Epoch 00135: val_loss did not improve
+Epoch 00136: val_loss improved from 0.91295 to 0.90893, saving model to ./keras.model
+Epoch 00137: val_loss did not improve
+Epoch 00138: val_loss did not improve
+Epoch 00139: val_loss did not improve
+Epoch 00140: val_loss improved from 0.90893 to 0.90449, saving model to ./keras.model
+Epoch 00141: val_loss improved from 0.90449 to 0.89918, saving model to ./keras.model
+Epoch 00142: val_loss did not improve
+Epoch 00143: val_loss did not improve
+Epoch 00144: val_loss improved from 0.89918 to 0.89884, saving model to ./keras.model
+Epoch 00145: val_loss did not improve
+Epoch 00146: val_loss improved from 0.89884 to 0.89584, saving model to ./keras.model
+Epoch 00147: val_loss did not improve
+Epoch 00148: val_loss did not improve
+Epoch 00149: val_loss did not improve
+Epoch 00150: val_loss improved from 0.89584 to 0.89274, saving model to ./keras.model
+Epoch 00151: val_loss did not improve
+Epoch 00152: val_loss did not improve
+Epoch 00153: val_loss did not improve
+Epoch 00154: val_loss improved from 0.89274 to 0.88560, saving model to ./keras.model
+Epoch 00155: val_loss did not improve
+Epoch 00156: val_loss did not improve
+Epoch 00157: val_loss did not improve
+Epoch 00158: val_loss improved from 0.88560 to 0.87816, saving model to ./keras.model
+Epoch 00159: val_loss did not improve
+Epoch 00160: val_loss did not improve
+Epoch 00161: val_loss did not improve
+Epoch 00162: val_loss did not improve
+Epoch 00163: val_loss did not improve
+Epoch 00164: val_loss improved from 0.87816 to 0.87643, saving model to ./keras.model
+Epoch 00165: val_loss did not improve
+Epoch 00166: val_loss improved from 0.87643 to 0.86941, saving model to ./keras.model
+Epoch 00167: val_loss did not improve
+Epoch 00168: val_loss did not improve
+Epoch 00169: val_loss improved from 0.86941 to 0.86897, saving model to ./keras.model
+Epoch 00170: val_loss did not improve
+Epoch 00171: val_loss did not improve
+Epoch 00172: val_loss did not improve
+Epoch 00173: val_loss improved from 0.86897 to 0.86511, saving model to ./keras.model
+Epoch 00174: val_loss did not improve
+Epoch 00175: val_loss did not improve
+Epoch 00176: val_loss improved from 0.86511 to 0.86400, saving model to ./keras.model
+Epoch 00177: val_loss did not improve
+Epoch 00178: val_loss did not improve
+Epoch 00179: val_loss improved from 0.86400 to 0.86082, saving model to ./keras.model
+Epoch 00180: val_loss did not improve
+Epoch 00181: val_loss improved from 0.86082 to 0.85862, saving model to ./keras.model
+Epoch 00182: val_loss did not improve
+Epoch 00183: val_loss improved from 0.85862 to 0.85399, saving model to ./keras.model
+Epoch 00184: val_loss did not improve
+Epoch 00185: val_loss did not improve
+Epoch 00186: val_loss improved from 0.85399 to 0.85306, saving model to ./keras.model
+Epoch 00187: val_loss improved from 0.85306 to 0.85306, saving model to ./keras.model
+Epoch 00188: val_loss improved from 0.85306 to 0.84854, saving model to ./keras.model
+Epoch 00189: val_loss did not improve
+Epoch 00190: val_loss did not improve
+Epoch 00191: val_loss did not improve
+Epoch 00192: val_loss did not improve
+Epoch 00193: val_loss improved from 0.84854 to 0.84592, saving model to ./keras.model
+Epoch 00194: val_loss did not improve
+Epoch 00195: val_loss improved from 0.84592 to 0.84484, saving model to ./keras.model
+Epoch 00196: val_loss did not improve
+Epoch 00197: val_loss did not improve
+Epoch 00198: val_loss did not improve
+Epoch 00199: val_loss improved from 0.84484 to 0.84466, saving model to ./keras.model
+Loading Best Model:
+  1000/284344 [..............................] - ETA: 54s  6000/284344 [..............................] - ETA: 11s 12000/284344 [>.............................] - ETA: 6s  17000/284344 [>.............................] - ETA: 5s 23000/284344 [=>............................] - ETA: 4s 29000/284344 [==>...........................] - ETA: 4s 34000/284344 [==>...........................] - ETA: 3s 39000/284344 [===>..........................] - ETA: 3s 45000/284344 [===>..........................] - ETA: 3s 50000/284344 [====>.........................] - ETA: 3s 56000/284344 [====>.........................] - ETA: 3s 61000/284344 [=====>........................] - ETA: 2s 67000/284344 [======>.......................] - ETA: 2s 73000/284344 [======>.......................] - ETA: 2s 78000/284344 [=======>......................] - ETA: 2s 83000/284344 [=======>......................] - ETA: 2s 88000/284344 [========>.....................] - ETA: 2s 94000/284344 [========>.....................] - ETA: 2s100000/284344 [=========>....................] - ETA: 2s106000/284344 [==========>...................] - ETA: 2s111000/284344 [==========>...................] - ETA: 2s117000/284344 [===========>..................] - ETA: 1s123000/284344 [===========>..................] - ETA: 1s129000/284344 [============>.................] - ETA: 1s134000/284344 [=============>................] - ETA: 1s140000/284344 [=============>................] - ETA: 1s146000/284344 [==============>...............] - ETA: 1s152000/284344 [===============>..............] - ETA: 1s158000/284344 [===============>..............] - ETA: 1s164000/284344 [================>.............] - ETA: 1s170000/284344 [================>.............] - ETA: 1s176000/284344 [=================>............] - ETA: 1s181000/284344 [==================>...........] - ETA: 1s187000/284344 [==================>...........] - ETA: 1s193000/284344 [===================>..........] - ETA: 0s198000/284344 [===================>..........] - ETA: 0s204000/284344 [====================>.........] - ETA: 0s210000/284344 [=====================>........] - ETA: 0s216000/284344 [=====================>........] - ETA: 0s222000/284344 [======================>.......] - ETA: 0s228000/284344 [=======================>......] - ETA: 0s234000/284344 [=======================>......] - ETA: 0s240000/284344 [========================>.....] - ETA: 0s245000/284344 [========================>.....] - ETA: 0s250000/284344 [=========================>....] - ETA: 0s256000/284344 [==========================>...] - ETA: 0s262000/284344 [==========================>...] - ETA: 0s268000/284344 [===========================>..] - ETA: 0s274000/284344 [===========================>..] - ETA: 0s280000/284344 [============================>.] - ETA: 0s  1000/284344 [..............................] - ETA: 3s  7000/284344 [..............................] - ETA: 2s 13000/284344 [>.............................] - ETA: 2s 19000/284344 [=>............................] - ETA: 2s 25000/284344 [=>............................] - ETA: 2s 31000/284344 [==>...........................] - ETA: 2s 37000/284344 [==>...........................] - ETA: 2s 42000/284344 [===>..........................] - ETA: 2s 48000/284344 [====>.........................] - ETA: 2s 53000/284344 [====>.........................] - ETA: 2s 59000/284344 [=====>........................] - ETA: 2s 65000/284344 [=====>........................] - ETA: 2s 71000/284344 [======>.......................] - ETA: 2s 77000/284344 [=======>......................] - ETA: 2s 83000/284344 [=======>......................] - ETA: 1s 89000/284344 [========>.....................] - ETA: 1s 94000/284344 [========>.....................] - ETA: 1s100000/284344 [=========>....................] - ETA: 1s105000/284344 [==========>...................] - ETA: 1s111000/284344 [==========>...................] - ETA: 1s117000/284344 [===========>..................] - ETA: 1s123000/284344 [===========>..................] - ETA: 1s129000/284344 [============>.................] - ETA: 1s135000/284344 [=============>................] - ETA: 1s141000/284344 [=============>................] - ETA: 1s147000/284344 [==============>...............] - ETA: 1s153000/284344 [===============>..............] - ETA: 1s159000/284344 [===============>..............] - ETA: 1s165000/284344 [================>.............] - ETA: 1s171000/284344 [=================>............] - ETA: 1s177000/284344 [=================>............] - ETA: 1s183000/284344 [==================>...........] - ETA: 0s188000/284344 [==================>...........] - ETA: 0s194000/284344 [===================>..........] - ETA: 0s200000/284344 [====================>.........] - ETA: 0s206000/284344 [====================>.........] - ETA: 0s212000/284344 [=====================>........] - ETA: 0s218000/284344 [======================>.......] - ETA: 0s224000/284344 [======================>.......] - ETA: 0s230000/284344 [=======================>......] - ETA: 0s236000/284344 [=======================>......] - ETA: 0s242000/284344 [========================>.....] - ETA: 0s248000/284344 [=========================>....] - ETA: 0s254000/284344 [=========================>....] - ETA: 0s260000/284344 [==========================>...] - ETA: 0s266000/284344 [===========================>..] - ETA: 0s271000/284344 [===========================>..] - ETA: 0s277000/284344 [============================>.] - ETA: 0s283000/284344 [============================>.] - ETA: 0s0.8141458517983737
+Epoch 00000: val_loss improved from inf to 1.39965, saving model to ./keras.model
+Epoch 00001: val_loss improved from 1.39965 to 1.35801, saving model to ./keras.model
+Epoch 00002: val_loss improved from 1.35801 to 1.33425, saving model to ./keras.model
+Epoch 00003: val_loss improved from 1.33425 to 1.31908, saving model to ./keras.model
+Epoch 00004: val_loss improved from 1.31908 to 1.29983, saving model to ./keras.model
+Epoch 00005: val_loss improved from 1.29983 to 1.28829, saving model to ./keras.model
+Epoch 00006: val_loss improved from 1.28829 to 1.26700, saving model to ./keras.model
+Epoch 00007: val_loss improved from 1.26700 to 1.25588, saving model to ./keras.model
+Epoch 00008: val_loss improved from 1.25588 to 1.25294, saving model to ./keras.model
+Epoch 00009: val_loss improved from 1.25294 to 1.24471, saving model to ./keras.model
+Epoch 00010: val_loss improved from 1.24471 to 1.22694, saving model to ./keras.model
+Epoch 00011: val_loss improved from 1.22694 to 1.22116, saving model to ./keras.model
+Epoch 00012: val_loss improved from 1.22116 to 1.21472, saving model to ./keras.model
+Epoch 00013: val_loss improved from 1.21472 to 1.20961, saving model to ./keras.model
+Epoch 00014: val_loss improved from 1.20961 to 1.19648, saving model to ./keras.model
+Epoch 00015: val_loss improved from 1.19648 to 1.19479, saving model to ./keras.model
+Epoch 00016: val_loss improved from 1.19479 to 1.18169, saving model to ./keras.model
+Epoch 00017: val_loss improved from 1.18169 to 1.17597, saving model to ./keras.model
+Epoch 00018: val_loss improved from 1.17597 to 1.17172, saving model to ./keras.model
+Epoch 00019: val_loss improved from 1.17172 to 1.16568, saving model to ./keras.model
+Epoch 00020: val_loss improved from 1.16568 to 1.15890, saving model to ./keras.model
+Epoch 00021: val_loss did not improve
+Epoch 00022: val_loss improved from 1.15890 to 1.15128, saving model to ./keras.model
+Epoch 00023: val_loss improved from 1.15128 to 1.14653, saving model to ./keras.model
+Epoch 00024: val_loss improved from 1.14653 to 1.14190, saving model to ./keras.model
+Epoch 00025: val_loss improved from 1.14190 to 1.13390, saving model to ./keras.model
+Epoch 00026: val_loss improved from 1.13390 to 1.13287, saving model to ./keras.model
+Epoch 00027: val_loss improved from 1.13287 to 1.12605, saving model to ./keras.model
+Epoch 00028: val_loss did not improve
+Epoch 00029: val_loss did not improve
+Epoch 00030: val_loss improved from 1.12605 to 1.11779, saving model to ./keras.model
+Epoch 00031: val_loss improved from 1.11779 to 1.11053, saving model to ./keras.model
+Epoch 00032: val_loss improved from 1.11053 to 1.10903, saving model to ./keras.model
+Epoch 00033: val_loss improved from 1.10903 to 1.10417, saving model to ./keras.model
+Epoch 00034: val_loss did not improve
+Epoch 00035: val_loss improved from 1.10417 to 1.10302, saving model to ./keras.model
+Epoch 00036: val_loss improved from 1.10302 to 1.09686, saving model to ./keras.model
+Epoch 00037: val_loss improved from 1.09686 to 1.08937, saving model to ./keras.model
+Epoch 00038: val_loss did not improve
+Epoch 00039: val_loss did not improve
+Epoch 00040: val_loss improved from 1.08937 to 1.08313, saving model to ./keras.model
+Epoch 00041: val_loss improved from 1.08313 to 1.07635, saving model to ./keras.model
+Epoch 00042: val_loss did not improve
+Epoch 00043: val_loss improved from 1.07635 to 1.07470, saving model to ./keras.model
+Epoch 00044: val_loss improved from 1.07470 to 1.07345, saving model to ./keras.model
+Epoch 00045: val_loss improved from 1.07345 to 1.07306, saving model to ./keras.model
+Epoch 00046: val_loss improved from 1.07306 to 1.06977, saving model to ./keras.model
+Epoch 00047: val_loss improved from 1.06977 to 1.06313, saving model to ./keras.model
+Epoch 00048: val_loss did not improve
+Epoch 00049: val_loss improved from 1.06313 to 1.06242, saving model to ./keras.model
+Epoch 00050: val_loss improved from 1.06242 to 1.06047, saving model to ./keras.model
+Epoch 00051: val_loss improved from 1.06047 to 1.05834, saving model to ./keras.model
+Epoch 00052: val_loss improved from 1.05834 to 1.05153, saving model to ./keras.model
+Epoch 00053: val_loss did not improve
+Epoch 00054: val_loss improved from 1.05153 to 1.04590, saving model to ./keras.model
+Epoch 00055: val_loss did not improve
+Epoch 00056: val_loss did not improve
+Epoch 00057: val_loss improved from 1.04590 to 1.03435, saving model to ./keras.model
+Epoch 00058: val_loss did not improve
+Epoch 00059: val_loss did not improve
+Epoch 00060: val_loss did not improve
+Epoch 00061: val_loss did not improve
+Epoch 00062: val_loss improved from 1.03435 to 1.02796, saving model to ./keras.model
+Epoch 00063: val_loss did not improve
+Epoch 00064: val_loss improved from 1.02796 to 1.02455, saving model to ./keras.model
+Epoch 00065: val_loss did not improve
+Epoch 00066: val_loss improved from 1.02455 to 1.02269, saving model to ./keras.model
+Epoch 00067: val_loss improved from 1.02269 to 1.01825, saving model to ./keras.model
+Epoch 00068: val_loss improved from 1.01825 to 1.01771, saving model to ./keras.model
+Epoch 00069: val_loss improved from 1.01771 to 1.01116, saving model to ./keras.model
+Epoch 00070: val_loss improved from 1.01116 to 1.00973, saving model to ./keras.model
+Epoch 00071: val_loss did not improve
+Epoch 00072: val_loss improved from 1.00973 to 1.00642, saving model to ./keras.model
+Epoch 00073: val_loss did not improve
+Epoch 00074: val_loss improved from 1.00642 to 1.00429, saving model to ./keras.model
+Epoch 00075: val_loss improved from 1.00429 to 1.00027, saving model to ./keras.model
+Epoch 00076: val_loss did not improve
+Epoch 00077: val_loss did not improve
+Epoch 00078: val_loss improved from 1.00027 to 0.99717, saving model to ./keras.model
+Epoch 00079: val_loss improved from 0.99717 to 0.99391, saving model to ./keras.model
+Epoch 00080: val_loss did not improve
+Epoch 00081: val_loss improved from 0.99391 to 0.98849, saving model to ./keras.model
+Epoch 00082: val_loss did not improve
+Epoch 00083: val_loss improved from 0.98849 to 0.98598, saving model to ./keras.model
+Epoch 00084: val_loss did not improve
+Epoch 00085: val_loss improved from 0.98598 to 0.98483, saving model to ./keras.model
+Epoch 00086: val_loss improved from 0.98483 to 0.97950, saving model to ./keras.model
+Epoch 00087: val_loss did not improve
+Epoch 00088: val_loss improved from 0.97950 to 0.97502, saving model to ./keras.model
+Epoch 00089: val_loss did not improve
+Epoch 00090: val_loss improved from 0.97502 to 0.97113, saving model to ./keras.model
+Epoch 00091: val_loss improved from 0.97113 to 0.97109, saving model to ./keras.model
+Epoch 00092: val_loss improved from 0.97109 to 0.97068, saving model to ./keras.model
+Epoch 00093: val_loss improved from 0.97068 to 0.96969, saving model to ./keras.model
+Epoch 00094: val_loss did not improve
+Epoch 00095: val_loss improved from 0.96969 to 0.96355, saving model to ./keras.model
+Epoch 00096: val_loss did not improve
+Epoch 00097: val_loss did not improve
+Epoch 00098: val_loss improved from 0.96355 to 0.96217, saving model to ./keras.model
+Epoch 00099: val_loss improved from 0.96217 to 0.96210, saving model to ./keras.model
+Epoch 00100: val_loss improved from 0.96210 to 0.95785, saving model to ./keras.model
+Epoch 00101: val_loss did not improve
+Epoch 00102: val_loss improved from 0.95785 to 0.95443, saving model to ./keras.model
+Epoch 00103: val_loss improved from 0.95443 to 0.95322, saving model to ./keras.model
+Epoch 00104: val_loss improved from 0.95322 to 0.94992, saving model to ./keras.model
+Epoch 00105: val_loss improved from 0.94992 to 0.94581, saving model to ./keras.model
+Epoch 00106: val_loss improved from 0.94581 to 0.94302, saving model to ./keras.model
+Epoch 00107: val_loss did not improve
+Epoch 00108: val_loss did not improve
+Epoch 00109: val_loss improved from 0.94302 to 0.93820, saving model to ./keras.model
+Epoch 00110: val_loss did not improve
+Epoch 00111: val_loss did not improve
+Epoch 00112: val_loss did not improve
+Epoch 00113: val_loss improved from 0.93820 to 0.93359, saving model to ./keras.model
+Epoch 00114: val_loss improved from 0.93359 to 0.93263, saving model to ./keras.model
+Epoch 00115: val_loss improved from 0.93263 to 0.93241, saving model to ./keras.model
+Epoch 00116: val_loss improved from 0.93241 to 0.92975, saving model to ./keras.model
+Epoch 00117: val_loss improved from 0.92975 to 0.92931, saving model to ./keras.model
+Epoch 00118: val_loss did not improve
+Epoch 00119: val_loss did not improve
+Epoch 00120: val_loss improved from 0.92931 to 0.92417, saving model to ./keras.model
+Epoch 00121: val_loss did not improve
+Epoch 00122: val_loss improved from 0.92417 to 0.91997, saving model to ./keras.model
+Epoch 00123: val_loss did not improve
+Epoch 00124: val_loss improved from 0.91997 to 0.91895, saving model to ./keras.model
+Epoch 00125: val_loss improved from 0.91895 to 0.91790, saving model to ./keras.model
+Epoch 00126: val_loss improved from 0.91790 to 0.91439, saving model to ./keras.model
+Epoch 00127: val_loss improved from 0.91439 to 0.91397, saving model to ./keras.model
+Epoch 00128: val_loss did not improve
+Epoch 00129: val_loss did not improve
+Epoch 00130: val_loss improved from 0.91397 to 0.91336, saving model to ./keras.model
+Epoch 00131: val_loss improved from 0.91336 to 0.90693, saving model to ./keras.model
+Epoch 00132: val_loss did not improve
+Epoch 00133: val_loss improved from 0.90693 to 0.90463, saving model to ./keras.model
+Epoch 00134: val_loss did not improve
+Epoch 00135: val_loss did not improve
+Epoch 00136: val_loss improved from 0.90463 to 0.90125, saving model to ./keras.model
+Epoch 00137: val_loss did not improve
+Epoch 00138: val_loss did not improve
+Epoch 00139: val_loss did not improve
+Epoch 00140: val_loss improved from 0.90125 to 0.89684, saving model to ./keras.model
+Epoch 00141: val_loss improved from 0.89684 to 0.89426, saving model to ./keras.model
+Epoch 00142: val_loss improved from 0.89426 to 0.89332, saving model to ./keras.model
+Epoch 00143: val_loss improved from 0.89332 to 0.89277, saving model to ./keras.model
+Epoch 00144: val_loss did not improve
+Epoch 00145: val_loss improved from 0.89277 to 0.89228, saving model to ./keras.model
+Epoch 00146: val_loss improved from 0.89228 to 0.89055, saving model to ./keras.model
+Epoch 00147: val_loss did not improve
+Epoch 00148: val_loss improved from 0.89055 to 0.88703, saving model to ./keras.model
+Epoch 00149: val_loss did not improve
+Epoch 00150: val_loss did not improve
+Epoch 00151: val_loss improved from 0.88703 to 0.88289, saving model to ./keras.model
+Epoch 00152: val_loss did not improve
+Epoch 00153: val_loss did not improve
+Epoch 00154: val_loss improved from 0.88289 to 0.87785, saving model to ./keras.model
+Epoch 00155: val_loss did not improve
+Epoch 00156: val_loss did not improve
+Epoch 00157: val_loss did not improve
+Epoch 00158: val_loss improved from 0.87785 to 0.87620, saving model to ./keras.model
+Epoch 00159: val_loss did not improve
+Epoch 00160: val_loss did not improve
+Epoch 00161: val_loss improved from 0.87620 to 0.87362, saving model to ./keras.model
+Epoch 00162: val_loss did not improve
+Epoch 00163: val_loss did not improve
+Epoch 00164: val_loss improved from 0.87362 to 0.86994, saving model to ./keras.model
+Epoch 00165: val_loss did not improve
+Epoch 00166: val_loss did not improve
+Epoch 00167: val_loss improved from 0.86994 to 0.86932, saving model to ./keras.model
+Epoch 00168: val_loss improved from 0.86932 to 0.86775, saving model to ./keras.model
+Epoch 00169: val_loss did not improve
+Epoch 00170: val_loss improved from 0.86775 to 0.86412, saving model to ./keras.model
+Epoch 00171: val_loss did not improve
+Epoch 00172: val_loss improved from 0.86412 to 0.86374, saving model to ./keras.model
+Epoch 00173: val_loss did not improve
+Epoch 00174: val_loss improved from 0.86374 to 0.86310, saving model to ./keras.model
+Epoch 00175: val_loss improved from 0.86310 to 0.85875, saving model to ./keras.model
+Epoch 00176: val_loss improved from 0.85875 to 0.85311, saving model to ./keras.model
+Epoch 00177: val_loss did not improve
+Epoch 00178: val_loss did not improve
+Epoch 00179: val_loss did not improve
+Epoch 00180: val_loss did not improve
+Epoch 00181: val_loss did not improve
+Epoch 00182: val_loss improved from 0.85311 to 0.85266, saving model to ./keras.model
+Epoch 00183: val_loss improved from 0.85266 to 0.84913, saving model to ./keras.model
+Epoch 00184: val_loss did not improve
+Epoch 00185: val_loss did not improve
+Epoch 00186: val_loss improved from 0.84913 to 0.84823, saving model to ./keras.model
+Epoch 00187: val_loss did not improve
+Epoch 00188: val_loss did not improve
+Epoch 00189: val_loss did not improve
+Epoch 00190: val_loss did not improve
+Epoch 00191: val_loss did not improve
+Epoch 00192: val_loss improved from 0.84823 to 0.84558, saving model to ./keras.model
+Epoch 00193: val_loss improved from 0.84558 to 0.84484, saving model to ./keras.model
+Epoch 00194: val_loss improved from 0.84484 to 0.84209, saving model to ./keras.model
+Epoch 00195: val_loss improved from 0.84209 to 0.84056, saving model to ./keras.model
+Epoch 00196: val_loss did not improve
+Epoch 00197: val_loss did not improve
+Epoch 00198: val_loss improved from 0.84056 to 0.83840, saving model to ./keras.model
+Epoch 00199: val_loss improved from 0.83840 to 0.83780, saving model to ./keras.model
+Loading Best Model:
+  1000/284340 [..............................] - ETA: 89s  2000/284340 [..............................] - ETA: 51s  4000/284340 [..............................] - ETA: 30s  6000/284340 [..............................] - ETA: 23s  8000/284340 [..............................] - ETA: 20s 10000/284340 [>.............................] - ETA: 18s 12000/284340 [>.............................] - ETA: 17s 14000/284340 [>.............................] - ETA: 16s 16000/284340 [>.............................] - ETA: 15s 18000/284340 [>.............................] - ETA: 14s 20000/284340 [=>............................] - ETA: 14s 22000/284340 [=>............................] - ETA: 13s 24000/284340 [=>............................] - ETA: 13s 26000/284340 [=>............................] - ETA: 12s 28000/284340 [=>............................] - ETA: 12s 30000/284340 [==>...........................] - ETA: 12s 32000/284340 [==>...........................] - ETA: 12s 34000/284340 [==>...........................] - ETA: 11s 36000/284340 [==>...........................] - ETA: 11s 38000/284340 [===>..........................] - ETA: 11s 40000/284340 [===>..........................] - ETA: 11s 42000/284340 [===>..........................] - ETA: 10s 44000/284340 [===>..........................] - ETA: 10s 46000/284340 [===>..........................] - ETA: 10s 48000/284340 [====>.........................] - ETA: 10s 50000/284340 [====>.........................] - ETA: 10s 52000/284340 [====>.........................] - ETA: 10s 54000/284340 [====>.........................] - ETA: 10s 56000/284340 [====>.........................] - ETA: 9s  58000/284340 [=====>........................] - ETA: 9s 60000/284340 [=====>........................] - ETA: 9s 62000/284340 [=====>........................] - ETA: 9s 64000/284340 [=====>........................] - ETA: 9s 66000/284340 [=====>........................] - ETA: 9s 68000/284340 [======>.......................] - ETA: 9s 69000/284340 [======>.......................] - ETA: 9s 71000/284340 [======>.......................] - ETA: 9s 73000/284340 [======>.......................] - ETA: 8s 75000/284340 [======>.......................] - ETA: 8s 77000/284340 [=======>......................] - ETA: 8s 79000/284340 [=======>......................] - ETA: 8s 81000/284340 [=======>......................] - ETA: 8s 83000/284340 [=======>......................] - ETA: 8s 85000/284340 [=======>......................] - ETA: 8s 87000/284340 [========>.....................] - ETA: 8s 89000/284340 [========>.....................] - ETA: 8s 91000/284340 [========>.....................] - ETA: 7s 93000/284340 [========>.....................] - ETA: 7s 95000/284340 [=========>....................] - ETA: 7s 97000/284340 [=========>....................] - ETA: 7s 99000/284340 [=========>....................] - ETA: 7s101000/284340 [=========>....................] - ETA: 7s103000/284340 [=========>....................] - ETA: 7s105000/284340 [==========>...................] - ETA: 7s107000/284340 [==========>...................] - ETA: 7s109000/284340 [==========>...................] - ETA: 7s111000/284340 [==========>...................] - ETA: 7s113000/284340 [==========>...................] - ETA: 6s115000/284340 [===========>..................] - ETA: 6s117000/284340 [===========>..................] - ETA: 6s119000/284340 [===========>..................] - ETA: 6s121000/284340 [===========>..................] - ETA: 6s123000/284340 [===========>..................] - ETA: 6s125000/284340 [============>.................] - ETA: 6s127000/284340 [============>.................] - ETA: 6s129000/284340 [============>.................] - ETA: 6s130000/284340 [============>.................] - ETA: 6s132000/284340 [============>.................] - ETA: 6s134000/284340 [=============>................] - ETA: 6s136000/284340 [=============>................] - ETA: 5s138000/284340 [=============>................] - ETA: 5s140000/284340 [=============>................] - ETA: 5s141000/284340 [=============>................] - ETA: 5s143000/284340 [==============>...............] - ETA: 5s145000/284340 [==============>...............] - ETA: 5s147000/284340 [==============>...............] - ETA: 5s149000/284340 [==============>...............] - ETA: 5s151000/284340 [==============>...............] - ETA: 5s153000/284340 [===============>..............] - ETA: 5s155000/284340 [===============>..............] - ETA: 5s157000/284340 [===============>..............] - ETA: 5s159000/284340 [===============>..............] - ETA: 5s161000/284340 [===============>..............] - ETA: 4s163000/284340 [================>.............] - ETA: 4s165000/284340 [================>.............] - ETA: 4s167000/284340 [================>.............] - ETA: 4s169000/284340 [================>.............] - ETA: 4s171000/284340 [=================>............] - ETA: 4s173000/284340 [=================>............] - ETA: 4s175000/284340 [=================>............] - ETA: 4s177000/284340 [=================>............] - ETA: 4s179000/284340 [=================>............] - ETA: 4s181000/284340 [==================>...........] - ETA: 4s182000/284340 [==================>...........] - ETA: 4s184000/284340 [==================>...........] - ETA: 3s186000/284340 [==================>...........] - ETA: 3s188000/284340 [==================>...........] - ETA: 3s190000/284340 [===================>..........] - ETA: 3s192000/284340 [===================>..........] - ETA: 3s194000/284340 [===================>..........] - ETA: 3s196000/284340 [===================>..........] - ETA: 3s198000/284340 [===================>..........] - ETA: 3s200000/284340 [====================>.........] - ETA: 3s202000/284340 [====================>.........] - ETA: 3s204000/284340 [====================>.........] - ETA: 3s206000/284340 [====================>.........] - ETA: 3s208000/284340 [====================>.........] - ETA: 3s210000/284340 [=====================>........] - ETA: 2s212000/284340 [=====================>........] - ETA: 2s214000/284340 [=====================>........] - ETA: 2s216000/284340 [=====================>........] - ETA: 2s218000/284340 [======================>.......] - ETA: 2s220000/284340 [======================>.......] - ETA: 2s222000/284340 [======================>.......] - ETA: 2s224000/284340 [======================>.......] - ETA: 2s226000/284340 [======================>.......] - ETA: 2s228000/284340 [=======================>......] - ETA: 2s230000/284340 [=======================>......] - ETA: 2s232000/284340 [=======================>......] - ETA: 2s234000/284340 [=======================>......] - ETA: 1s236000/284340 [=======================>......] - ETA: 1s238000/284340 [========================>.....] - ETA: 1s240000/284340 [========================>.....] - ETA: 1s242000/284340 [========================>.....] - ETA: 1s244000/284340 [========================>.....] - ETA: 1s246000/284340 [========================>.....] - ETA: 1s248000/284340 [=========================>....] - ETA: 1s250000/284340 [=========================>....] - ETA: 1s252000/284340 [=========================>....] - ETA: 1s254000/284340 [=========================>....] - ETA: 1s256000/284340 [==========================>...] - ETA: 1s258000/284340 [==========================>...] - ETA: 1s260000/284340 [==========================>...] - ETA: 0s262000/284340 [==========================>...] - ETA: 0s264000/284340 [==========================>...] - ETA: 0s266000/284340 [===========================>..] - ETA: 0s268000/284340 [===========================>..] - ETA: 0s270000/284340 [===========================>..] - ETA: 0s272000/284340 [===========================>..] - ETA: 0s274000/284340 [===========================>..] - ETA: 0s276000/284340 [============================>.] - ETA: 0s278000/284340 [============================>.] - ETA: 0s280000/284340 [============================>.] - ETA: 0s282000/284340 [============================>.] - ETA: 0s284000/284340 [============================>.] - ETA: 0s  1000/284340 [..............................] - ETA: 10s  3000/284340 [..............................] - ETA: 10s  5000/284340 [..............................] - ETA: 10s  7000/284340 [..............................] - ETA: 10s  9000/284340 [..............................] - ETA: 10s 11000/284340 [>.............................] - ETA: 10s 13000/284340 [>.............................] - ETA: 10s 15000/284340 [>.............................] - ETA: 10s 17000/284340 [>.............................] - ETA: 10s 19000/284340 [=>............................] - ETA: 10s 21000/284340 [=>............................] - ETA: 10s 23000/284340 [=>............................] - ETA: 9s  25000/284340 [=>............................] - ETA: 9s 27000/284340 [=>............................] - ETA: 9s 29000/284340 [==>...........................] - ETA: 9s 31000/284340 [==>...........................] - ETA: 9s 33000/284340 [==>...........................] - ETA: 9s 35000/284340 [==>...........................] - ETA: 9s 37000/284340 [==>...........................] - ETA: 9s 39000/284340 [===>..........................] - ETA: 9s 41000/284340 [===>..........................] - ETA: 9s 43000/284340 [===>..........................] - ETA: 9s 45000/284340 [===>..........................] - ETA: 9s 47000/284340 [===>..........................] - ETA: 9s 49000/284340 [====>.........................] - ETA: 8s 51000/284340 [====>.........................] - ETA: 8s 53000/284340 [====>.........................] - ETA: 8s 55000/284340 [====>.........................] - ETA: 8s 57000/284340 [=====>........................] - ETA: 8s 59000/284340 [=====>........................] - ETA: 8s 61000/284340 [=====>........................] - ETA: 8s 63000/284340 [=====>........................] - ETA: 8s 65000/284340 [=====>........................] - ETA: 8s 67000/284340 [======>.......................] - ETA: 8s 69000/284340 [======>.......................] - ETA: 8s 71000/284340 [======>.......................] - ETA: 8s 73000/284340 [======>.......................] - ETA: 8s 75000/284340 [======>.......................] - ETA: 7s 76000/284340 [=======>......................] - ETA: 7s 78000/284340 [=======>......................] - ETA: 7s 80000/284340 [=======>......................] - ETA: 7s 81000/284340 [=======>......................] - ETA: 7s 83000/284340 [=======>......................] - ETA: 7s 85000/284340 [=======>......................] - ETA: 7s 87000/284340 [========>.....................] - ETA: 7s 89000/284340 [========>.....................] - ETA: 7s 91000/284340 [========>.....................] - ETA: 7s 93000/284340 [========>.....................] - ETA: 7s 95000/284340 [=========>....................] - ETA: 7s 97000/284340 [=========>....................] - ETA: 7s 99000/284340 [=========>....................] - ETA: 7s101000/284340 [=========>....................] - ETA: 7s103000/284340 [=========>....................] - ETA: 6s105000/284340 [==========>...................] - ETA: 6s107000/284340 [==========>...................] - ETA: 6s109000/284340 [==========>...................] - ETA: 6s111000/284340 [==========>...................] - ETA: 6s113000/284340 [==========>...................] - ETA: 6s115000/284340 [===========>..................] - ETA: 6s117000/284340 [===========>..................] - ETA: 6s119000/284340 [===========>..................] - ETA: 6s121000/284340 [===========>..................] - ETA: 6s123000/284340 [===========>..................] - ETA: 6s125000/284340 [============>.................] - ETA: 6s127000/284340 [============>.................] - ETA: 6s129000/284340 [============>.................] - ETA: 5s131000/284340 [============>.................] - ETA: 5s133000/284340 [=============>................] - ETA: 5s135000/284340 [=============>................] - ETA: 5s137000/284340 [=============>................] - ETA: 5s139000/284340 [=============>................] - ETA: 5s141000/284340 [=============>................] - ETA: 5s143000/284340 [==============>...............] - ETA: 5s145000/284340 [==============>...............] - ETA: 5s147000/284340 [==============>...............] - ETA: 5s148000/284340 [==============>...............] - ETA: 5s150000/284340 [==============>...............] - ETA: 5s152000/284340 [===============>..............] - ETA: 5s153000/284340 [===============>..............] - ETA: 5s155000/284340 [===============>..............] - ETA: 4s156000/284340 [===============>..............] - ETA: 4s158000/284340 [===============>..............] - ETA: 4s160000/284340 [===============>..............] - ETA: 4s162000/284340 [================>.............] - ETA: 4s164000/284340 [================>.............] - ETA: 4s166000/284340 [================>.............] - ETA: 4s168000/284340 [================>.............] - ETA: 4s170000/284340 [================>.............] - ETA: 4s172000/284340 [=================>............] - ETA: 4s174000/284340 [=================>............] - ETA: 4s176000/284340 [=================>............] - ETA: 4s178000/284340 [=================>............] - ETA: 4s180000/284340 [=================>............] - ETA: 3s182000/284340 [==================>...........] - ETA: 3s184000/284340 [==================>...........] - ETA: 3s186000/284340 [==================>...........] - ETA: 3s188000/284340 [==================>...........] - ETA: 3s190000/284340 [===================>..........] - ETA: 3s192000/284340 [===================>..........] - ETA: 3s194000/284340 [===================>..........] - ETA: 3s196000/284340 [===================>..........] - ETA: 3s198000/284340 [===================>..........] - ETA: 3s200000/284340 [====================>.........] - ETA: 3s201000/284340 [====================>.........] - ETA: 3s203000/284340 [====================>.........] - ETA: 3s205000/284340 [====================>.........] - ETA: 3s207000/284340 [====================>.........] - ETA: 2s209000/284340 [=====================>........] - ETA: 2s210000/284340 [=====================>........] - ETA: 2s212000/284340 [=====================>........] - ETA: 2s214000/284340 [=====================>........] - ETA: 2s216000/284340 [=====================>........] - ETA: 2s218000/284340 [======================>.......] - ETA: 2s220000/284340 [======================>.......] - ETA: 2s222000/284340 [======================>.......] - ETA: 2s224000/284340 [======================>.......] - ETA: 2s226000/284340 [======================>.......] - ETA: 2s228000/284340 [=======================>......] - ETA: 2s230000/284340 [=======================>......] - ETA: 2s232000/284340 [=======================>......] - ETA: 2s234000/284340 [=======================>......] - ETA: 1s236000/284340 [=======================>......] - ETA: 1s238000/284340 [========================>.....] - ETA: 1s240000/284340 [========================>.....] - ETA: 1s242000/284340 [========================>.....] - ETA: 1s244000/284340 [========================>.....] - ETA: 1s246000/284340 [========================>.....] - ETA: 1s248000/284340 [=========================>....] - ETA: 1s250000/284340 [=========================>....] - ETA: 1s252000/284340 [=========================>....] - ETA: 1s254000/284340 [=========================>....] - ETA: 1s256000/284340 [==========================>...] - ETA: 1s258000/284340 [==========================>...] - ETA: 1s260000/284340 [==========================>...] - ETA: 0s262000/284340 [==========================>...] - ETA: 0s264000/284340 [==========================>...] - ETA: 0s266000/284340 [===========================>..] - ETA: 0s268000/284340 [===========================>..] - ETA: 0s270000/284340 [===========================>..] - ETA: 0s272000/284340 [===========================>..] - ETA: 0s274000/284340 [===========================>..] - ETA: 0s276000/284340 [============================>.] - ETA: 0s278000/284340 [============================>.] - ETA: 0s280000/284340 [============================>.] - ETA: 0s282000/284340 [============================>.] - ETA: 0s284000/284340 [============================>.] - ETA: 0s0.8051950595113836
+Epoch 00000: val_loss improved from inf to 1.40441, saving model to ./keras.model
+Epoch 00001: val_loss improved from 1.40441 to 1.35987, saving model to ./keras.model
+Epoch 00002: val_loss improved from 1.35987 to 1.33763, saving model to ./keras.model
+Epoch 00003: val_loss improved from 1.33763 to 1.31819, saving model to ./keras.model
+Epoch 00004: val_loss improved from 1.31819 to 1.30521, saving model to ./keras.model
+Epoch 00005: val_loss improved from 1.30521 to 1.30322, saving model to ./keras.model
+Epoch 00006: val_loss improved from 1.30322 to 1.28558, saving model to ./keras.model
+Epoch 00007: val_loss improved from 1.28558 to 1.27359, saving model to ./keras.model
+Epoch 00008: val_loss improved from 1.27359 to 1.25489, saving model to ./keras.model
+Epoch 00009: val_loss improved from 1.25489 to 1.25437, saving model to ./keras.model
+Epoch 00010: val_loss improved from 1.25437 to 1.24316, saving model to ./keras.model
+Epoch 00011: val_loss improved from 1.24316 to 1.23324, saving model to ./keras.model
+Epoch 00012: val_loss improved from 1.23324 to 1.22076, saving model to ./keras.model
+Epoch 00013: val_loss improved from 1.22076 to 1.21597, saving model to ./keras.model
+Epoch 00014: val_loss improved from 1.21597 to 1.20490, saving model to ./keras.model
+Epoch 00015: val_loss improved from 1.20490 to 1.19970, saving model to ./keras.model
+Epoch 00016: val_loss improved from 1.19970 to 1.19224, saving model to ./keras.model
+Epoch 00017: val_loss improved from 1.19224 to 1.17739, saving model to ./keras.model
+Epoch 00018: val_loss did not improve
+Epoch 00019: val_loss did not improve
+Epoch 00020: val_loss improved from 1.17739 to 1.16750, saving model to ./keras.model
+Epoch 00021: val_loss did not improve
+Epoch 00022: val_loss improved from 1.16750 to 1.15475, saving model to ./keras.model
+Epoch 00023: val_loss improved from 1.15475 to 1.15238, saving model to ./keras.model
+Epoch 00024: val_loss improved from 1.15238 to 1.14694, saving model to ./keras.model
+Epoch 00025: val_loss improved from 1.14694 to 1.14333, saving model to ./keras.model
+Epoch 00026: val_loss did not improve
+Epoch 00027: val_loss improved from 1.14333 to 1.13478, saving model to ./keras.model
+Epoch 00028: val_loss improved from 1.13478 to 1.12693, saving model to ./keras.model
+Epoch 00029: val_loss improved from 1.12693 to 1.12536, saving model to ./keras.model
+Epoch 00030: val_loss improved from 1.12536 to 1.12043, saving model to ./keras.model
+Epoch 00031: val_loss improved from 1.12043 to 1.11625, saving model to ./keras.model
+Epoch 00032: val_loss improved from 1.11625 to 1.11048, saving model to ./keras.model
+Epoch 00033: val_loss did not improve
+Epoch 00034: val_loss improved from 1.11048 to 1.10330, saving model to ./keras.model
+Epoch 00035: val_loss improved from 1.10330 to 1.10051, saving model to ./keras.model
+Epoch 00036: val_loss did not improve
+Epoch 00037: val_loss improved from 1.10051 to 1.09764, saving model to ./keras.model
+Epoch 00038: val_loss improved from 1.09764 to 1.09286, saving model to ./keras.model
+Epoch 00039: val_loss improved from 1.09286 to 1.09161, saving model to ./keras.model
+Epoch 00040: val_loss improved from 1.09161 to 1.08699, saving model to ./keras.model
+Epoch 00041: val_loss improved from 1.08699 to 1.08645, saving model to ./keras.model
+Epoch 00042: val_loss improved from 1.08645 to 1.08260, saving model to ./keras.model
+Epoch 00043: val_loss improved from 1.08260 to 1.07799, saving model to ./keras.model
+Epoch 00044: val_loss improved from 1.07799 to 1.07463, saving model to ./keras.model
+Epoch 00045: val_loss improved from 1.07463 to 1.06557, saving model to ./keras.model
+Epoch 00046: val_loss improved from 1.06557 to 1.06292, saving model to ./keras.model
+Epoch 00047: val_loss did not improve
+Epoch 00048: val_loss improved from 1.06292 to 1.06167, saving model to ./keras.model
+Epoch 00049: val_loss improved from 1.06167 to 1.05644, saving model to ./keras.model
+Epoch 00050: val_loss did not improve
+Epoch 00051: val_loss improved from 1.05644 to 1.04944, saving model to ./keras.model
+Epoch 00052: val_loss did not improve
+Epoch 00053: val_loss improved from 1.04944 to 1.04495, saving model to ./keras.model
+Epoch 00054: val_loss did not improve
+Epoch 00055: val_loss improved from 1.04495 to 1.03985, saving model to ./keras.model
+Epoch 00056: val_loss did not improve
+Epoch 00057: val_loss improved from 1.03985 to 1.03625, saving model to ./keras.model
+Epoch 00058: val_loss improved from 1.03625 to 1.03200, saving model to ./keras.model
+Epoch 00059: val_loss did not improve
+Epoch 00060: val_loss improved from 1.03200 to 1.03075, saving model to ./keras.model
+Epoch 00061: val_loss improved from 1.03075 to 1.02701, saving model to ./keras.model
+Epoch 00062: val_loss did not improve
+Epoch 00063: val_loss improved from 1.02701 to 1.02677, saving model to ./keras.model
+Epoch 00064: val_loss improved from 1.02677 to 1.01921, saving model to ./keras.model
+Epoch 00065: val_loss improved from 1.01921 to 1.01677, saving model to ./keras.model
+Epoch 00066: val_loss did not improve
+Epoch 00067: val_loss improved from 1.01677 to 1.01546, saving model to ./keras.model
+Epoch 00068: val_loss improved from 1.01546 to 1.01296, saving model to ./keras.model
+Epoch 00069: val_loss did not improve
+Epoch 00070: val_loss improved from 1.01296 to 1.00813, saving model to ./keras.model
+Epoch 00071: val_loss did not improve
+Epoch 00072: val_loss improved from 1.00813 to 1.00481, saving model to ./keras.model
+Epoch 00073: val_loss improved from 1.00481 to 1.00202, saving model to ./keras.model
+Epoch 00074: val_loss improved from 1.00202 to 0.99777, saving model to ./keras.model
+Epoch 00075: val_loss did not improve
+Epoch 00076: val_loss did not improve
+Epoch 00077: val_loss improved from 0.99777 to 0.99261, saving model to ./keras.model
+Epoch 00078: val_loss improved from 0.99261 to 0.99044, saving model to ./keras.model
+Epoch 00079: val_loss did not improve
+Epoch 00080: val_loss did not improve
+Epoch 00081: val_loss improved from 0.99044 to 0.98545, saving model to ./keras.model
+Epoch 00082: val_loss did not improve
+Epoch 00083: val_loss improved from 0.98545 to 0.98406, saving model to ./keras.model
+Epoch 00084: val_loss improved from 0.98406 to 0.98092, saving model to ./keras.model
+Epoch 00085: val_loss did not improve
+Epoch 00086: val_loss did not improve
+Epoch 00087: val_loss improved from 0.98092 to 0.97469, saving model to ./keras.model
+Epoch 00088: val_loss did not improve
+Epoch 00089: val_loss improved from 0.97469 to 0.97405, saving model to ./keras.model
+Epoch 00090: val_loss improved from 0.97405 to 0.96349, saving model to ./keras.model
+Epoch 00091: val_loss did not improve
+Epoch 00092: val_loss did not improve
+Epoch 00093: val_loss did not improve
+Epoch 00094: val_loss did not improve
+Epoch 00095: val_loss did not improve
+Epoch 00096: val_loss did not improve
+Epoch 00097: val_loss improved from 0.96349 to 0.96054, saving model to ./keras.model
+Epoch 00098: val_loss did not improve
+Epoch 00099: val_loss improved from 0.96054 to 0.95722, saving model to ./keras.model
+Epoch 00100: val_loss did not improve
+Epoch 00101: val_loss did not improve
+Epoch 00102: val_loss improved from 0.95722 to 0.95206, saving model to ./keras.model
+Epoch 00103: val_loss improved from 0.95206 to 0.95146, saving model to ./keras.model
+Epoch 00104: val_loss improved from 0.95146 to 0.95122, saving model to ./keras.model
+Epoch 00105: val_loss did not improve
+Epoch 00106: val_loss improved from 0.95122 to 0.94760, saving model to ./keras.model
+Epoch 00107: val_loss did not improve
+Epoch 00108: val_loss improved from 0.94760 to 0.94392, saving model to ./keras.model
+Epoch 00109: val_loss improved from 0.94392 to 0.93949, saving model to ./keras.model
+Epoch 00110: val_loss did not improve
+Epoch 00111: val_loss did not improve
+Epoch 00112: val_loss did not improve
+Epoch 00113: val_loss did not improve
+Epoch 00114: val_loss improved from 0.93949 to 0.93622, saving model to ./keras.model
+Epoch 00115: val_loss improved from 0.93622 to 0.93119, saving model to ./keras.model
+Epoch 00116: val_loss improved from 0.93119 to 0.93030, saving model to ./keras.model
+Epoch 00117: val_loss did not improve
+Epoch 00118: val_loss did not improve
+Epoch 00119: val_loss improved from 0.93030 to 0.92912, saving model to ./keras.model
+Epoch 00120: val_loss improved from 0.92912 to 0.92505, saving model to ./keras.model
+Epoch 00121: val_loss improved from 0.92505 to 0.92475, saving model to ./keras.model
+Epoch 00122: val_loss did not improve
+Epoch 00123: val_loss improved from 0.92475 to 0.92011, saving model to ./keras.model
+Epoch 00124: val_loss did not improve
+Epoch 00125: val_loss did not improve
+Epoch 00126: val_loss did not improve
+Epoch 00127: val_loss improved from 0.92011 to 0.91898, saving model to ./keras.model
+Epoch 00128: val_loss improved from 0.91898 to 0.91580, saving model to ./keras.model
+Epoch 00129: val_loss did not improve
+Epoch 00130: val_loss improved from 0.91580 to 0.90974, saving model to ./keras.model
+Epoch 00131: val_loss improved from 0.90974 to 0.90896, saving model to ./keras.model
+Epoch 00132: val_loss did not improve
+Epoch 00133: val_loss did not improve
+Epoch 00134: val_loss improved from 0.90896 to 0.90650, saving model to ./keras.model
+Epoch 00135: val_loss did not improve
+Epoch 00136: val_loss did not improve
+Epoch 00137: val_loss improved from 0.90650 to 0.90329, saving model to ./keras.model
+Epoch 00138: val_loss did not improve
+Epoch 00139: val_loss did not improve
+Epoch 00140: val_loss improved from 0.90329 to 0.90216, saving model to ./keras.model
+Epoch 00141: val_loss did not improve
+Epoch 00142: val_loss improved from 0.90216 to 0.89833, saving model to ./keras.model
+Epoch 00143: val_loss improved from 0.89833 to 0.89498, saving model to ./keras.model
+Epoch 00144: val_loss did not improve
+Epoch 00145: val_loss did not improve
+Epoch 00146: val_loss did not improve
+Epoch 00147: val_loss did not improve
+Epoch 00148: val_loss improved from 0.89498 to 0.89113, saving model to ./keras.model
+Epoch 00149: val_loss improved from 0.89113 to 0.89066, saving model to ./keras.model
+Epoch 00150: val_loss improved from 0.89066 to 0.89061, saving model to ./keras.model
+Epoch 00151: val_loss improved from 0.89061 to 0.88926, saving model to ./keras.model
+Epoch 00152: val_loss did not improve
+Epoch 00153: val_loss did not improve
+Epoch 00154: val_loss did not improve
+Epoch 00155: val_loss improved from 0.88926 to 0.88387, saving model to ./keras.model
+Epoch 00156: val_loss did not improve
+Epoch 00157: val_loss improved from 0.88387 to 0.87929, saving model to ./keras.model
+Epoch 00158: val_loss did not improve
+Epoch 00159: val_loss did not improve
+Epoch 00160: val_loss did not improve
+Epoch 00161: val_loss improved from 0.87929 to 0.87881, saving model to ./keras.model
+Epoch 00162: val_loss improved from 0.87881 to 0.87174, saving model to ./keras.model
+Epoch 00163: val_loss did not improve
+Epoch 00164: val_loss did not improve
+Epoch 00165: val_loss did not improve
+Epoch 00166: val_loss improved from 0.87174 to 0.87003, saving model to ./keras.model
+Epoch 00167: val_loss did not improve
+Epoch 00168: val_loss did not improve
+Epoch 00169: val_loss did not improve
+Epoch 00170: val_loss improved from 0.87003 to 0.86620, saving model to ./keras.model
+Epoch 00171: val_loss improved from 0.86620 to 0.86606, saving model to ./keras.model
+Epoch 00172: val_loss did not improve
+Epoch 00173: val_loss improved from 0.86606 to 0.86596, saving model to ./keras.model
+Epoch 00174: val_loss improved from 0.86596 to 0.86363, saving model to ./keras.model
+Epoch 00175: val_loss improved from 0.86363 to 0.86303, saving model to ./keras.model
+Epoch 00176: val_loss did not improve
+Epoch 00177: val_loss did not improve
+Epoch 00178: val_loss improved from 0.86303 to 0.85754, saving model to ./keras.model
+Epoch 00179: val_loss improved from 0.85754 to 0.85496, saving model to ./keras.model
+Epoch 00180: val_loss improved from 0.85496 to 0.85325, saving model to ./keras.model
+Epoch 00181: val_loss did not improve
+Epoch 00182: val_loss did not improve
+Epoch 00183: val_loss did not improve
+Epoch 00184: val_loss improved from 0.85325 to 0.84895, saving model to ./keras.model
+Epoch 00185: val_loss did not improve
+Epoch 00186: val_loss did not improve
+Epoch 00187: val_loss did not improve
+Epoch 00188: val_loss improved from 0.84895 to 0.84755, saving model to ./keras.model
+Epoch 00189: val_loss improved from 0.84755 to 0.84667, saving model to ./keras.model
+Epoch 00190: val_loss did not improve
+Epoch 00191: val_loss did not improve
+Epoch 00192: val_loss did not improve
+Epoch 00193: val_loss improved from 0.84667 to 0.83953, saving model to ./keras.model
+Epoch 00194: val_loss did not improve
+Epoch 00195: val_loss did not improve
+Epoch 00196: val_loss did not improve
+Epoch 00197: val_loss did not improve
+Epoch 00198: val_loss improved from 0.83953 to 0.83684, saving model to ./keras.model
+Epoch 00199: val_loss did not improve
+Loading Best Model:
+  1000/284339 [..............................] - ETA: 98s  7000/284339 [..............................] - ETA: 16s 12000/284339 [>.............................] - ETA: 10s 17000/284339 [>.............................] - ETA: 8s  23000/284339 [=>............................] - ETA: 6s 29000/284339 [==>...........................] - ETA: 5s 34000/284339 [==>...........................] - ETA: 5s 40000/284339 [===>..........................] - ETA: 4s 46000/284339 [===>..........................] - ETA: 4s 51000/284339 [====>.........................] - ETA: 3s 57000/284339 [=====>........................] - ETA: 3s 62000/284339 [=====>........................] - ETA: 3s 68000/284339 [======>.......................] - ETA: 3s 73000/284339 [======>.......................] - ETA: 3s 78000/284339 [=======>......................] - ETA: 2s 83000/284339 [=======>......................] - ETA: 2s 88000/284339 [========>.....................] - ETA: 2s 93000/284339 [========>.....................] - ETA: 2s 98000/284339 [=========>....................] - ETA: 2s103000/284339 [=========>....................] - ETA: 2s108000/284339 [==========>...................] - ETA: 2s113000/284339 [==========>...................] - ETA: 2s118000/284339 [===========>..................] - ETA: 2s123000/284339 [===========>..................] - ETA: 2s129000/284339 [============>.................] - ETA: 2s134000/284339 [=============>................] - ETA: 1s140000/284339 [=============>................] - ETA: 1s145000/284339 [==============>...............] - ETA: 1s150000/284339 [==============>...............] - ETA: 1s155000/284339 [===============>..............] - ETA: 1s160000/284339 [===============>..............] - ETA: 1s166000/284339 [================>.............] - ETA: 1s171000/284339 [=================>............] - ETA: 1s177000/284339 [=================>............] - ETA: 1s182000/284339 [==================>...........] - ETA: 1s187000/284339 [==================>...........] - ETA: 1s193000/284339 [===================>..........] - ETA: 1s198000/284339 [===================>..........] - ETA: 1s203000/284339 [====================>.........] - ETA: 0s209000/284339 [=====================>........] - ETA: 0s214000/284339 [=====================>........] - ETA: 0s220000/284339 [======================>.......] - ETA: 0s226000/284339 [======================>.......] - ETA: 0s231000/284339 [=======================>......] - ETA: 0s236000/284339 [=======================>......] - ETA: 0s242000/284339 [========================>.....] - ETA: 0s247000/284339 [=========================>....] - ETA: 0s252000/284339 [=========================>....] - ETA: 0s257000/284339 [==========================>...] - ETA: 0s262000/284339 [==========================>...] - ETA: 0s267000/284339 [===========================>..] - ETA: 0s272000/284339 [===========================>..] - ETA: 0s277000/284339 [============================>.] - ETA: 0s282000/284339 [============================>.] - ETA: 0s  1000/284339 [..............................] - ETA: 3s  6000/284339 [..............................] - ETA: 3s 12000/284339 [>.............................] - ETA: 2s 17000/284339 [>.............................] - ETA: 2s 22000/284339 [=>............................] - ETA: 2s 27000/284339 [=>............................] - ETA: 2s 32000/284339 [==>...........................] - ETA: 2s 38000/284339 [===>..........................] - ETA: 2s 44000/284339 [===>..........................] - ETA: 2s 49000/284339 [====>.........................] - ETA: 2s 55000/284339 [====>.........................] - ETA: 2s 60000/284339 [=====>........................] - ETA: 2s 65000/284339 [=====>........................] - ETA: 2s 70000/284339 [======>.......................] - ETA: 2s 75000/284339 [======>.......................] - ETA: 2s 80000/284339 [=======>......................] - ETA: 2s 85000/284339 [=======>......................] - ETA: 2s 91000/284339 [========>.....................] - ETA: 2s 96000/284339 [=========>....................] - ETA: 1s102000/284339 [=========>....................] - ETA: 1s107000/284339 [==========>...................] - ETA: 1s112000/284339 [==========>...................] - ETA: 1s117000/284339 [===========>..................] - ETA: 1s123000/284339 [===========>..................] - ETA: 1s128000/284339 [============>.................] - ETA: 1s133000/284339 [=============>................] - ETA: 1s138000/284339 [=============>................] - ETA: 1s144000/284339 [==============>...............] - ETA: 1s149000/284339 [==============>...............] - ETA: 1s154000/284339 [===============>..............] - ETA: 1s159000/284339 [===============>..............] - ETA: 1s164000/284339 [================>.............] - ETA: 1s169000/284339 [================>.............] - ETA: 1s174000/284339 [=================>............] - ETA: 1s180000/284339 [=================>............] - ETA: 1s186000/284339 [==================>...........] - ETA: 1s192000/284339 [===================>..........] - ETA: 0s197000/284339 [===================>..........] - ETA: 0s202000/284339 [====================>.........] - ETA: 0s207000/284339 [====================>.........] - ETA: 0s212000/284339 [=====================>........] - ETA: 0s218000/284339 [======================>.......] - ETA: 0s223000/284339 [======================>.......] - ETA: 0s228000/284339 [=======================>......] - ETA: 0s233000/284339 [=======================>......] - ETA: 0s239000/284339 [========================>.....] - ETA: 0s244000/284339 [========================>.....] - ETA: 0s249000/284339 [=========================>....] - ETA: 0s254000/284339 [=========================>....] - ETA: 0s260000/284339 [==========================>...] - ETA: 0s266000/284339 [===========================>..] - ETA: 0s271000/284339 [===========================>..] - ETA: 0s276000/284339 [============================>.] - ETA: 0s282000/284339 [============================>.] - ETA: 0s0.8050344959178729
+Epoch 00000: val_loss improved from inf to 1.40315, saving model to ./keras.model
+Epoch 00001: val_loss improved from 1.40315 to 1.36046, saving model to ./keras.model
+Epoch 00002: val_loss improved from 1.36046 to 1.34194, saving model to ./keras.model
+Epoch 00003: val_loss improved from 1.34194 to 1.31659, saving model to ./keras.model
+Epoch 00004: val_loss improved from 1.31659 to 1.30030, saving model to ./keras.model
+Epoch 00005: val_loss improved from 1.30030 to 1.29475, saving model to ./keras.model
+Epoch 00006: val_loss improved from 1.29475 to 1.27431, saving model to ./keras.model
+Epoch 00007: val_loss improved from 1.27431 to 1.25914, saving model to ./keras.model
+Epoch 00008: val_loss improved from 1.25914 to 1.25004, saving model to ./keras.model
+Epoch 00009: val_loss improved from 1.25004 to 1.23529, saving model to ./keras.model
+Epoch 00010: val_loss improved from 1.23529 to 1.22780, saving model to ./keras.model
+Epoch 00011: val_loss improved from 1.22780 to 1.22200, saving model to ./keras.model
+Epoch 00012: val_loss improved from 1.22200 to 1.21637, saving model to ./keras.model
+Epoch 00013: val_loss improved from 1.21637 to 1.20278, saving model to ./keras.model
+Epoch 00014: val_loss did not improve
+Epoch 00015: val_loss improved from 1.20278 to 1.19327, saving model to ./keras.model
+Epoch 00016: val_loss improved from 1.19327 to 1.17940, saving model to ./keras.model
+Epoch 00017: val_loss did not improve
+Epoch 00018: val_loss improved from 1.17940 to 1.17308, saving model to ./keras.model
+Epoch 00019: val_loss improved from 1.17308 to 1.16658, saving model to ./keras.model
+Epoch 00020: val_loss improved from 1.16658 to 1.15846, saving model to ./keras.model
+Epoch 00021: val_loss improved from 1.15846 to 1.15252, saving model to ./keras.model
+Epoch 00022: val_loss improved from 1.15252 to 1.15094, saving model to ./keras.model
+Epoch 00023: val_loss improved from 1.15094 to 1.14545, saving model to ./keras.model
+Epoch 00024: val_loss improved from 1.14545 to 1.13995, saving model to ./keras.model
+Epoch 00025: val_loss did not improve
+Epoch 00026: val_loss improved from 1.13995 to 1.12680, saving model to ./keras.model
+Epoch 00027: val_loss improved from 1.12680 to 1.12648, saving model to ./keras.model
+Epoch 00028: val_loss did not improve
+Epoch 00029: val_loss did not improve
+Epoch 00030: val_loss improved from 1.12648 to 1.11973, saving model to ./keras.model
+Epoch 00031: val_loss improved from 1.11973 to 1.11277, saving model to ./keras.model
+Epoch 00032: val_loss improved from 1.11277 to 1.10567, saving model to ./keras.model
+Epoch 00033: val_loss improved from 1.10567 to 1.10431, saving model to ./keras.model
+Epoch 00034: val_loss did not improve
+Epoch 00035: val_loss improved from 1.10431 to 1.09615, saving model to ./keras.model
+Epoch 00036: val_loss did not improve
+Epoch 00037: val_loss improved from 1.09615 to 1.09318, saving model to ./keras.model
+Epoch 00038: val_loss did not improve
+Epoch 00039: val_loss improved from 1.09318 to 1.08906, saving model to ./keras.model
+Epoch 00040: val_loss improved from 1.08906 to 1.08399, saving model to ./keras.model
+Epoch 00041: val_loss did not improve
+Epoch 00042: val_loss improved from 1.08399 to 1.07291, saving model to ./keras.model
+Epoch 00043: val_loss did not improve
+Epoch 00044: val_loss improved from 1.07291 to 1.06675, saving model to ./keras.model
+Epoch 00045: val_loss did not improve
+Epoch 00046: val_loss improved from 1.06675 to 1.06582, saving model to ./keras.model
+Epoch 00047: val_loss did not improve
+Epoch 00048: val_loss improved from 1.06582 to 1.06467, saving model to ./keras.model
+Epoch 00049: val_loss improved from 1.06467 to 1.06071, saving model to ./keras.model
+Epoch 00050: val_loss improved from 1.06071 to 1.05647, saving model to ./keras.model
+Epoch 00051: val_loss improved from 1.05647 to 1.05097, saving model to ./keras.model
+Epoch 00052: val_loss did not improve
+Epoch 00053: val_loss did not improve
+Epoch 00054: val_loss improved from 1.05097 to 1.04564, saving model to ./keras.model
+Epoch 00055: val_loss improved from 1.04564 to 1.04411, saving model to ./keras.model
+Epoch 00056: val_loss improved from 1.04411 to 1.04331, saving model to ./keras.model
+Epoch 00057: val_loss improved from 1.04331 to 1.04056, saving model to ./keras.model
+Epoch 00058: val_loss did not improve
+Epoch 00059: val_loss improved from 1.04056 to 1.03445, saving model to ./keras.model
+Epoch 00060: val_loss improved from 1.03445 to 1.03219, saving model to ./keras.model
+Epoch 00061: val_loss did not improve
+Epoch 00062: val_loss improved from 1.03219 to 1.02639, saving model to ./keras.model
+Epoch 00063: val_loss improved from 1.02639 to 1.02491, saving model to ./keras.model
+Epoch 00064: val_loss did not improve
+Epoch 00065: val_loss improved from 1.02491 to 1.02065, saving model to ./keras.model
+Epoch 00066: val_loss improved from 1.02065 to 1.01759, saving model to ./keras.model
+Epoch 00067: val_loss did not improve
+Epoch 00068: val_loss improved from 1.01759 to 1.01529, saving model to ./keras.model
+Epoch 00069: val_loss did not improve
+Epoch 00070: val_loss did not improve
+Epoch 00071: val_loss improved from 1.01529 to 1.01415, saving model to ./keras.model
+Epoch 00072: val_loss improved from 1.01415 to 1.00763, saving model to ./keras.model
+Epoch 00073: val_loss improved from 1.00763 to 1.00588, saving model to ./keras.model
+Epoch 00074: val_loss improved from 1.00588 to 1.00394, saving model to ./keras.model
+Epoch 00075: val_loss did not improve
+Epoch 00076: val_loss did not improve
+Epoch 00077: val_loss improved from 1.00394 to 0.99533, saving model to ./keras.model
+Epoch 00078: val_loss did not improve
+Epoch 00079: val_loss did not improve
+Epoch 00080: val_loss improved from 0.99533 to 0.99293, saving model to ./keras.model
+Epoch 00081: val_loss improved from 0.99293 to 0.99063, saving model to ./keras.model
+Epoch 00082: val_loss improved from 0.99063 to 0.99014, saving model to ./keras.model
+Epoch 00083: val_loss improved from 0.99014 to 0.98261, saving model to ./keras.model
+Epoch 00084: val_loss did not improve
+Epoch 00085: val_loss did not improve
+Epoch 00086: val_loss did not improve
+Epoch 00087: val_loss did not improve
+Epoch 00088: val_loss improved from 0.98261 to 0.98156, saving model to ./keras.model
+Epoch 00089: val_loss improved from 0.98156 to 0.97819, saving model to ./keras.model
+Epoch 00090: val_loss improved from 0.97819 to 0.97565, saving model to ./keras.model
+Epoch 00091: val_loss improved from 0.97565 to 0.97201, saving model to ./keras.model
+Epoch 00092: val_loss did not improve
+Epoch 00093: val_loss improved from 0.97201 to 0.97080, saving model to ./keras.model
+Epoch 00094: val_loss improved from 0.97080 to 0.96780, saving model to ./keras.model
+Epoch 00095: val_loss did not improve
+Epoch 00096: val_loss did not improve
+Epoch 00097: val_loss did not improve
+Epoch 00098: val_loss improved from 0.96780 to 0.96580, saving model to ./keras.model
+Epoch 00099: val_loss improved from 0.96580 to 0.96041, saving model to ./keras.model
+Epoch 00100: val_loss did not improve
+Epoch 00101: val_loss improved from 0.96041 to 0.95681, saving model to ./keras.model
+Epoch 00102: val_loss did not improve
+Epoch 00103: val_loss did not improve
+Epoch 00104: val_loss improved from 0.95681 to 0.95381, saving model to ./keras.model
+Epoch 00105: val_loss improved from 0.95381 to 0.95258, saving model to ./keras.model
+Epoch 00106: val_loss improved from 0.95258 to 0.94910, saving model to ./keras.model
+Epoch 00107: val_loss did not improve
+Epoch 00108: val_loss improved from 0.94910 to 0.94859, saving model to ./keras.model
+Epoch 00109: val_loss improved from 0.94859 to 0.94669, saving model to ./keras.model
+Epoch 00110: val_loss did not improve
+Epoch 00111: val_loss improved from 0.94669 to 0.94433, saving model to ./keras.model
+Epoch 00112: val_loss did not improve
+Epoch 00113: val_loss did not improve
+Epoch 00114: val_loss did not improve
+Epoch 00115: val_loss improved from 0.94433 to 0.93721, saving model to ./keras.model
+Epoch 00116: val_loss improved from 0.93721 to 0.93516, saving model to ./keras.model
+Epoch 00117: val_loss did not improve
+Epoch 00118: val_loss did not improve
+Epoch 00119: val_loss improved from 0.93516 to 0.93337, saving model to ./keras.model
+Epoch 00120: val_loss improved from 0.93337 to 0.93023, saving model to ./keras.model
+Epoch 00121: val_loss did not improve
+Epoch 00122: val_loss improved from 0.93023 to 0.92865, saving model to ./keras.model
+Epoch 00123: val_loss improved from 0.92865 to 0.92833, saving model to ./keras.model
+Epoch 00124: val_loss did not improve
+Epoch 00125: val_loss improved from 0.92833 to 0.92257, saving model to ./keras.model
+Epoch 00126: val_loss did not improve
+Epoch 00127: val_loss did not improve
+Epoch 00128: val_loss improved from 0.92257 to 0.91911, saving model to ./keras.model
+Epoch 00129: val_loss did not improve
+Epoch 00130: val_loss did not improve
+Epoch 00131: val_loss did not improve
+Epoch 00132: val_loss improved from 0.91911 to 0.91650, saving model to ./keras.model
+Epoch 00133: val_loss did not improve
+Epoch 00134: val_loss improved from 0.91650 to 0.91508, saving model to ./keras.model
+Epoch 00135: val_loss improved from 0.91508 to 0.91116, saving model to ./keras.model
+Epoch 00136: val_loss improved from 0.91116 to 0.91073, saving model to ./keras.model
+Epoch 00137: val_loss did not improve
+Epoch 00138: val_loss did not improve
+Epoch 00139: val_loss improved from 0.91073 to 0.90785, saving model to ./keras.model
+Epoch 00140: val_loss improved from 0.90785 to 0.90522, saving model to ./keras.model
+Epoch 00141: val_loss did not improve
+Epoch 00142: val_loss improved from 0.90522 to 0.90375, saving model to ./keras.model
+Epoch 00143: val_loss did not improve
+Epoch 00144: val_loss did not improve
+Epoch 00145: val_loss did not improve
+Epoch 00146: val_loss improved from 0.90375 to 0.90314, saving model to ./keras.model
+Epoch 00147: val_loss improved from 0.90314 to 0.90157, saving model to ./keras.model
+Epoch 00148: val_loss did not improve
+Epoch 00149: val_loss did not improve
+Epoch 00150: val_loss improved from 0.90157 to 0.89810, saving model to ./keras.model
+Epoch 00151: val_loss improved from 0.89810 to 0.89261, saving model to ./keras.model
+Epoch 00152: val_loss did not improve
+Epoch 00153: val_loss did not improve
+Epoch 00154: val_loss did not improve
+Epoch 00155: val_loss improved from 0.89261 to 0.89164, saving model to ./keras.model
+Epoch 00156: val_loss improved from 0.89164 to 0.88787, saving model to ./keras.model
+Epoch 00157: val_loss improved from 0.88787 to 0.88335, saving model to ./keras.model
+Epoch 00158: val_loss did not improve
+Epoch 00159: val_loss did not improve
+Epoch 00160: val_loss did not improve
+Epoch 00161: val_loss did not improve
+Epoch 00162: val_loss did not improve
+Epoch 00163: val_loss improved from 0.88335 to 0.88186, saving model to ./keras.model
+Epoch 00164: val_loss improved from 0.88186 to 0.87915, saving model to ./keras.model
+Epoch 00165: val_loss did not improve
+Epoch 00166: val_loss improved from 0.87915 to 0.87893, saving model to ./keras.model
+Epoch 00167: val_loss improved from 0.87893 to 0.87679, saving model to ./keras.model
+Epoch 00168: val_loss improved from 0.87679 to 0.87498, saving model to ./keras.model
+Epoch 00169: val_loss did not improve
+Epoch 00170: val_loss improved from 0.87498 to 0.87370, saving model to ./keras.model
+Epoch 00171: val_loss did not improve
+Epoch 00172: val_loss did not improve
+Epoch 00173: val_loss did not improve
+Epoch 00174: val_loss improved from 0.87370 to 0.86863, saving model to ./keras.model
+Epoch 00175: val_loss improved from 0.86863 to 0.86840, saving model to ./keras.model
+Epoch 00176: val_loss did not improve
+Epoch 00177: val_loss did not improve
+Epoch 00178: val_loss improved from 0.86840 to 0.86800, saving model to ./keras.model
+Epoch 00179: val_loss did not improve
+Epoch 00180: val_loss improved from 0.86800 to 0.86744, saving model to ./keras.model
+Epoch 00181: val_loss improved from 0.86744 to 0.86142, saving model to ./keras.model
+Epoch 00182: val_loss did not improve
+Epoch 00183: val_loss did not improve
+Epoch 00184: val_loss did not improve
+Epoch 00185: val_loss did not improve
+Epoch 00186: val_loss improved from 0.86142 to 0.85917, saving model to ./keras.model
+Epoch 00187: val_loss did not improve
+Epoch 00188: val_loss improved from 0.85917 to 0.85627, saving model to ./keras.model
+Epoch 00189: val_loss did not improve
+Epoch 00190: val_loss did not improve
+Epoch 00191: val_loss did not improve
+Epoch 00192: val_loss improved from 0.85627 to 0.84881, saving model to ./keras.model
+Epoch 00193: val_loss did not improve
+Epoch 00194: val_loss did not improve
+Epoch 00195: val_loss did not improve
+Epoch 00196: val_loss did not improve
+Epoch 00197: val_loss did not improve
+Epoch 00198: val_loss did not improve
+Epoch 00199: val_loss did not improve
+Loading Best Model:
+  1000/284336 [..............................] - ETA: 136s  3000/284336 [..............................] - ETA: 52s   5000/284336 [..............................] - ETA: 35s  7000/284336 [..............................] - ETA: 28s  9000/284336 [..............................] - ETA: 24s 11000/284336 [>.............................] - ETA: 21s 13000/284336 [>.............................] - ETA: 19s 15000/284336 [>.............................] - ETA: 18s 17000/284336 [>.............................] - ETA: 17s 19000/284336 [=>............................] - ETA: 16s 21000/284336 [=>............................] - ETA: 15s 23000/284336 [=>............................] - ETA: 15s 25000/284336 [=>............................] - ETA: 14s 27000/284336 [=>............................] - ETA: 14s 29000/284336 [==>...........................] - ETA: 13s 31000/284336 [==>...........................] - ETA: 13s 33000/284336 [==>...........................] - ETA: 13s 34000/284336 [==>...........................] - ETA: 12s 36000/284336 [==>...........................] - ETA: 12s 38000/284336 [===>..........................] - ETA: 12s 40000/284336 [===>..........................] - ETA: 12s 42000/284336 [===>..........................] - ETA: 12s 44000/284336 [===>..........................] - ETA: 11s 46000/284336 [===>..........................] - ETA: 11s 48000/284336 [====>.........................] - ETA: 11s 50000/284336 [====>.........................] - ETA: 11s 52000/284336 [====>.........................] - ETA: 10s 54000/284336 [====>.........................] - ETA: 10s 56000/284336 [====>.........................] - ETA: 10s 58000/284336 [=====>........................] - ETA: 10s 60000/284336 [=====>........................] - ETA: 10s 62000/284336 [=====>........................] - ETA: 10s 64000/284336 [=====>........................] - ETA: 10s 66000/284336 [=====>........................] - ETA: 9s  68000/284336 [======>.......................] - ETA: 9s 70000/284336 [======>.......................] - ETA: 9s 72000/284336 [======>.......................] - ETA: 9s 74000/284336 [======>.......................] - ETA: 9s 76000/284336 [=======>......................] - ETA: 9s 78000/284336 [=======>......................] - ETA: 9s 80000/284336 [=======>......................] - ETA: 9s 82000/284336 [=======>......................] - ETA: 8s 84000/284336 [=======>......................] - ETA: 8s 86000/284336 [========>.....................] - ETA: 8s 88000/284336 [========>.....................] - ETA: 8s 90000/284336 [========>.....................] - ETA: 8s 92000/284336 [========>.....................] - ETA: 8s 94000/284336 [========>.....................] - ETA: 8s 96000/284336 [=========>....................] - ETA: 8s 97000/284336 [=========>....................] - ETA: 8s 99000/284336 [=========>....................] - ETA: 8s101000/284336 [=========>....................] - ETA: 7s103000/284336 [=========>....................] - ETA: 7s105000/284336 [==========>...................] - ETA: 7s107000/284336 [==========>...................] - ETA: 7s109000/284336 [==========>...................] - ETA: 7s111000/284336 [==========>...................] - ETA: 7s113000/284336 [==========>...................] - ETA: 7s115000/284336 [===========>..................] - ETA: 7s116000/284336 [===========>..................] - ETA: 7s118000/284336 [===========>..................] - ETA: 7s120000/284336 [===========>..................] - ETA: 6s122000/284336 [===========>..................] - ETA: 6s124000/284336 [============>.................] - ETA: 6s126000/284336 [============>.................] - ETA: 6s127000/284336 [============>.................] - ETA: 6s129000/284336 [============>.................] - ETA: 6s131000/284336 [============>.................] - ETA: 6s133000/284336 [=============>................] - ETA: 6s135000/284336 [=============>................] - ETA: 6s137000/284336 [=============>................] - ETA: 6s139000/284336 [=============>................] - ETA: 6s141000/284336 [=============>................] - ETA: 5s143000/284336 [==============>...............] - ETA: 5s145000/284336 [==============>...............] - ETA: 5s146000/284336 [==============>...............] - ETA: 5s148000/284336 [==============>...............] - ETA: 5s150000/284336 [==============>...............] - ETA: 5s151000/284336 [==============>...............] - ETA: 5s153000/284336 [===============>..............] - ETA: 5s155000/284336 [===============>..............] - ETA: 5s157000/284336 [===============>..............] - ETA: 5s159000/284336 [===============>..............] - ETA: 5s161000/284336 [===============>..............] - ETA: 5s163000/284336 [================>.............] - ETA: 5s165000/284336 [================>.............] - ETA: 4s167000/284336 [================>.............] - ETA: 4s169000/284336 [================>.............] - ETA: 4s171000/284336 [=================>............] - ETA: 4s173000/284336 [=================>............] - ETA: 4s175000/284336 [=================>............] - ETA: 4s177000/284336 [=================>............] - ETA: 4s179000/284336 [=================>............] - ETA: 4s181000/284336 [==================>...........] - ETA: 4s183000/284336 [==================>...........] - ETA: 4s185000/284336 [==================>...........] - ETA: 4s187000/284336 [==================>...........] - ETA: 3s189000/284336 [==================>...........] - ETA: 3s191000/284336 [===================>..........] - ETA: 3s193000/284336 [===================>..........] - ETA: 3s195000/284336 [===================>..........] - ETA: 3s197000/284336 [===================>..........] - ETA: 3s199000/284336 [===================>..........] - ETA: 3s201000/284336 [====================>.........] - ETA: 3s203000/284336 [====================>.........] - ETA: 3s205000/284336 [====================>.........] - ETA: 3s207000/284336 [====================>.........] - ETA: 3s209000/284336 [=====================>........] - ETA: 3s211000/284336 [=====================>........] - ETA: 2s213000/284336 [=====================>........] - ETA: 2s215000/284336 [=====================>........] - ETA: 2s217000/284336 [=====================>........] - ETA: 2s219000/284336 [======================>.......] - ETA: 2s221000/284336 [======================>.......] - ETA: 2s223000/284336 [======================>.......] - ETA: 2s225000/284336 [======================>.......] - ETA: 2s227000/284336 [======================>.......] - ETA: 2s229000/284336 [=======================>......] - ETA: 2s231000/284336 [=======================>......] - ETA: 2s233000/284336 [=======================>......] - ETA: 2s235000/284336 [=======================>......] - ETA: 1s237000/284336 [========================>.....] - ETA: 1s239000/284336 [========================>.....] - ETA: 1s241000/284336 [========================>.....] - ETA: 1s243000/284336 [========================>.....] - ETA: 1s245000/284336 [========================>.....] - ETA: 1s247000/284336 [=========================>....] - ETA: 1s249000/284336 [=========================>....] - ETA: 1s251000/284336 [=========================>....] - ETA: 1s253000/284336 [=========================>....] - ETA: 1s255000/284336 [=========================>....] - ETA: 1s257000/284336 [==========================>...] - ETA: 1s259000/284336 [==========================>...] - ETA: 1s261000/284336 [==========================>...] - ETA: 0s263000/284336 [==========================>...] - ETA: 0s265000/284336 [==========================>...] - ETA: 0s267000/284336 [===========================>..] - ETA: 0s269000/284336 [===========================>..] - ETA: 0s271000/284336 [===========================>..] - ETA: 0s273000/284336 [===========================>..] - ETA: 0s275000/284336 [============================>.] - ETA: 0s277000/284336 [============================>.] - ETA: 0s279000/284336 [============================>.] - ETA: 0s281000/284336 [============================>.] - ETA: 0s283000/284336 [============================>.] - ETA: 0s  1000/284336 [..............................] - ETA: 12s  3000/284336 [..............................] - ETA: 9s   5000/284336 [..............................] - ETA: 10s  7000/284336 [..............................] - ETA: 10s  9000/284336 [..............................] - ETA: 10s 11000/284336 [>.............................] - ETA: 10s 13000/284336 [>.............................] - ETA: 10s 15000/284336 [>.............................] - ETA: 10s 17000/284336 [>.............................] - ETA: 10s 19000/284336 [=>............................] - ETA: 10s 21000/284336 [=>............................] - ETA: 10s 23000/284336 [=>............................] - ETA: 9s  25000/284336 [=>............................] - ETA: 9s 27000/284336 [=>............................] - ETA: 9s 29000/284336 [==>...........................] - ETA: 9s 31000/284336 [==>...........................] - ETA: 9s 33000/284336 [==>...........................] - ETA: 9s 35000/284336 [==>...........................] - ETA: 9s 37000/284336 [==>...........................] - ETA: 9s 39000/284336 [===>..........................] - ETA: 9s 41000/284336 [===>..........................] - ETA: 9s 43000/284336 [===>..........................] - ETA: 9s 44000/284336 [===>..........................] - ETA: 9s 46000/284336 [===>..........................] - ETA: 9s 48000/284336 [====>.........................] - ETA: 9s 50000/284336 [====>.........................] - ETA: 8s 52000/284336 [====>.........................] - ETA: 8s 54000/284336 [====>.........................] - ETA: 8s 56000/284336 [====>.........................] - ETA: 8s 58000/284336 [=====>........................] - ETA: 8s 60000/284336 [=====>........................] - ETA: 8s 61000/284336 [=====>........................] - ETA: 8s 63000/284336 [=====>........................] - ETA: 8s 65000/284336 [=====>........................] - ETA: 8s 67000/284336 [======>.......................] - ETA: 8s 69000/284336 [======>.......................] - ETA: 8s 71000/284336 [======>.......................] - ETA: 8s 73000/284336 [======>.......................] - ETA: 8s 75000/284336 [======>.......................] - ETA: 7s 77000/284336 [=======>......................] - ETA: 7s 79000/284336 [=======>......................] - ETA: 7s 81000/284336 [=======>......................] - ETA: 7s 83000/284336 [=======>......................] - ETA: 7s 85000/284336 [=======>......................] - ETA: 7s 87000/284336 [========>.....................] - ETA: 7s 89000/284336 [========>.....................] - ETA: 7s 91000/284336 [========>.....................] - ETA: 7s 93000/284336 [========>.....................] - ETA: 7s 95000/284336 [=========>....................] - ETA: 7s 96000/284336 [=========>....................] - ETA: 7s 98000/284336 [=========>....................] - ETA: 7s100000/284336 [=========>....................] - ETA: 7s102000/284336 [=========>....................] - ETA: 6s103000/284336 [=========>....................] - ETA: 6s105000/284336 [==========>...................] - ETA: 6s107000/284336 [==========>...................] - ETA: 6s109000/284336 [==========>...................] - ETA: 6s111000/284336 [==========>...................] - ETA: 6s113000/284336 [==========>...................] - ETA: 6s115000/284336 [===========>..................] - ETA: 6s117000/284336 [===========>..................] - ETA: 6s118000/284336 [===========>..................] - ETA: 6s120000/284336 [===========>..................] - ETA: 6s122000/284336 [===========>..................] - ETA: 6s124000/284336 [============>.................] - ETA: 6s126000/284336 [============>.................] - ETA: 6s128000/284336 [============>.................] - ETA: 5s130000/284336 [============>.................] - ETA: 5s132000/284336 [============>.................] - ETA: 5s134000/284336 [=============>................] - ETA: 5s136000/284336 [=============>................] - ETA: 5s138000/284336 [=============>................] - ETA: 5s140000/284336 [=============>................] - ETA: 5s142000/284336 [=============>................] - ETA: 5s144000/284336 [==============>...............] - ETA: 5s146000/284336 [==============>...............] - ETA: 5s148000/284336 [==============>...............] - ETA: 5s150000/284336 [==============>...............] - ETA: 5s152000/284336 [===============>..............] - ETA: 5s154000/284336 [===============>..............] - ETA: 4s156000/284336 [===============>..............] - ETA: 4s158000/284336 [===============>..............] - ETA: 4s160000/284336 [===============>..............] - ETA: 4s162000/284336 [================>.............] - ETA: 4s164000/284336 [================>.............] - ETA: 4s166000/284336 [================>.............] - ETA: 4s168000/284336 [================>.............] - ETA: 4s170000/284336 [================>.............] - ETA: 4s172000/284336 [=================>............] - ETA: 4s174000/284336 [=================>............] - ETA: 4s176000/284336 [=================>............] - ETA: 4s178000/284336 [=================>............] - ETA: 4s180000/284336 [=================>............] - ETA: 3s182000/284336 [==================>...........] - ETA: 3s184000/284336 [==================>...........] - ETA: 3s186000/284336 [==================>...........] - ETA: 3s188000/284336 [==================>...........] - ETA: 3s190000/284336 [===================>..........] - ETA: 3s192000/284336 [===================>..........] - ETA: 3s194000/284336 [===================>..........] - ETA: 3s196000/284336 [===================>..........] - ETA: 3s198000/284336 [===================>..........] - ETA: 3s200000/284336 [====================>.........] - ETA: 3s202000/284336 [====================>.........] - ETA: 3s204000/284336 [====================>.........] - ETA: 3s206000/284336 [====================>.........] - ETA: 2s208000/284336 [====================>.........] - ETA: 2s210000/284336 [=====================>........] - ETA: 2s212000/284336 [=====================>........] - ETA: 2s214000/284336 [=====================>........] - ETA: 2s216000/284336 [=====================>........] - ETA: 2s218000/284336 [======================>.......] - ETA: 2s220000/284336 [======================>.......] - ETA: 2s222000/284336 [======================>.......] - ETA: 2s224000/284336 [======================>.......] - ETA: 2s226000/284336 [======================>.......] - ETA: 2s228000/284336 [=======================>......] - ETA: 2s230000/284336 [=======================>......] - ETA: 2s232000/284336 [=======================>......] - ETA: 2s234000/284336 [=======================>......] - ETA: 1s236000/284336 [=======================>......] - ETA: 1s238000/284336 [========================>.....] - ETA: 1s240000/284336 [========================>.....] - ETA: 1s242000/284336 [========================>.....] - ETA: 1s244000/284336 [========================>.....] - ETA: 1s246000/284336 [========================>.....] - ETA: 1s248000/284336 [=========================>....] - ETA: 1s250000/284336 [=========================>....] - ETA: 1s252000/284336 [=========================>....] - ETA: 1s254000/284336 [=========================>....] - ETA: 1s256000/284336 [==========================>...] - ETA: 1s258000/284336 [==========================>...] - ETA: 1s260000/284336 [==========================>...] - ETA: 0s262000/284336 [==========================>...] - ETA: 0s264000/284336 [==========================>...] - ETA: 0s266000/284336 [===========================>..] - ETA: 0s268000/284336 [===========================>..] - ETA: 0s270000/284336 [===========================>..] - ETA: 0s272000/284336 [===========================>..] - ETA: 0s274000/284336 [===========================>..] - ETA: 0s276000/284336 [============================>.] - ETA: 0s278000/284336 [============================>.] - ETA: 0s280000/284336 [============================>.] - ETA: 0s282000/284336 [============================>.] - ETA: 0s284000/284336 [============================>.] - ETA: 0s0.8180402419362897
+Traceback (most recent call last):
+  File "starter.py", line 122, in <module>
+    score = model.evaluate(ss.fit_transform(full_test), y_test, verbose = 1)
+NameError: name 'y_test' is not defined
