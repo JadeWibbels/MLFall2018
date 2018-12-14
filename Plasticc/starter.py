@@ -48,25 +48,28 @@ def multi_weighted_logloss(y_ohe, y_p):
     loss = - np.sum(y_w) / np.sum(class_arr)
     return loss
 
+
+''' adapted from public kernel in starter kit
+https://www.kaggle.com/michaelapers/the-plasticc-astronomy-starter-kit
+'''
 K.clear_session()
 def create_model(dropout_rate=0.25,activation='relu'):
-    start_neurons = 512
     # create model
     model = Sequential()
-    model.add(Dense(start_neurons, input_dim=feature_matrix_ss.shape[1], activation=activation))
+    model.add(Dense(512, input_dim=feature_matrix_ss.shape[1], activation='relu'))
     #model.add(Dense(start_neurons, input_dim=full_train_ss.shape[1], activation=activation))
     model.add(BatchNormalization())
     model.add(Dropout(dropout_rate))
     
-    model.add(Dense(start_neurons//2,activation=activation))
+    model.add(Dense(256,activation='relu'))
     model.add(BatchNormalization())
     model.add(Dropout(dropout_rate))
     
-    model.add(Dense(start_neurons//4,activation=activation))
+    model.add(Dense(128,activation='relu'))
     model.add(BatchNormalization())
     model.add(Dropout(dropout_rate))
     
-    model.add(Dense(start_neurons//8,activation=activation))
+    model.add(Dense(64,activation='relu'))
     model.add(BatchNormalization())
     model.add(Dropout(dropout_rate/2))
     
